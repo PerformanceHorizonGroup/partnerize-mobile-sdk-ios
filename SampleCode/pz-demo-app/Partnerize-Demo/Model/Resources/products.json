@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id" : 1,
+            "title": "The Greatest Showman",
+            "category": "music",
+            "info": "The Greatest Show",
+            "notes": "VHS special",
+            "price": "16.99",
+            "currency": "GBP",
+            "currency_symbol": "£",
+            "imageURL": "https://images.shazam.com/coverart/t380887917-b1299856904_s400.jpg",
+            "shippingDetails": "Royal Mail"
+        },
+        {
+            "id" : 2,
+            "title": "Toto",
+            "category": "deals",
+            "info": "Africa",
+            "notes": "",
+            "price": "4.99",
+            "currency": "GBP",
+            "currency_symbol": "£",
+            "imageURL": "https://images.shazam.com/coverart/t459379-b890507696_s400.jpg",
+            "shippingDetails": "Royal Mail"
+        },
+        {
+            "id" : 3,
+            "title": "Jonathan Butler",
+            "category": "deals",
+            "info": "I Stand On Your Word",
+            "notes": "VHS special",
+            "price": "13.99",
+            "currency": "GBP",
+            "currency_symbol": "£",
+            "imageURL": "https://images.shazam.com/coverart/t63447127-b526949365_s400.jpg",
+            "shippingDetails": "Royal Mail"
+        },
+        {
+            "id" : 4,
+            "title": "James Arthur & Anne-Marie",
+            "category": "music",
+            "info": "Rewrite the Stars",
+            "notes": "Order before Christmas on VHS special",
+            "price": "16.99",
+            "currency": "GBP",
+            "currency_symbol": "£",
+            "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/03/49/c3/0349c337-c8d0-42d1-4f94-01a4e97fc533/source/200x200bb.png",
+            "shippingDetails": "Royal Mail"
+        },
+        {
+            "id" : 5,
+            "title": "Dalton Harris",
+            "category": "music",
+            "info": "The Power of Love (feat. James Arthur)",
+            "notes": "Order tomorrow phonograph record",
+            "price": "99.99",
+            "currency": "GBP",
+            "currency_symbol": "£",
+            "imageURL": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/69/6b/ad/696bad8b-215b-2362-bdcc-3745eb5ec277/source/200x200bb.png",
+            "shippingDetails": "Royal Mail"
+        },
+        {
+            "id" : 6,
+            "title": "Ava Max",
+            "category": "music",
+            "info": "Sweet but Psycho",
+            "notes": "Order today on casette tape",
+            "price": "5.99",
+            "currency": "GBP",
+            "currency_symbol": "£",
+            "imageURL": "https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/48/ae/c1/48aec164-22dc-47d9-8e12-c029e25330bb/source/200x200bb.png",
+            "shippingDetails": "Royal Mail"
+        }
+    ]
+}
