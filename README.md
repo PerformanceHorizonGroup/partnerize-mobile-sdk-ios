@@ -28,7 +28,7 @@ end
 2. Go to your Xcode project's "General" settings. Drag `Partnerize.framework` to the "Embedded Binaries" section. Make sure "Copy items if needed" is selected and click Finish.
 3. Create a new “Run Script Phase” in your app’s target’s “Build Phases” and paste the following snippet in the script test field:
 
-bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Partnerize.framework/strip-frameworks.sh"
+```bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Partnerize.framework/strip-frameworks.sh"```
 
 ## Documentation
 SDK API documentation is available [here](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/blob/master/docs/).
