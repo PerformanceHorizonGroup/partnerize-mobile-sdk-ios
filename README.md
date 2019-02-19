@@ -34,5 +34,5 @@ end
 SDK API documentation is available [here](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/blob/master/docs/).
 
 ## Example app
-There is an example app provided [here](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/tree/master/SampleCode) for both Objective-C and Swift.
+There is an example app provided [here](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/tree/master/SampleCode) for Swift.
 
