@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios, '11.0'
     s.source            = { :http => 'link to your cocoapods .zip attachment' }
-    s.source_files      = "Partnerize.framework/Headers/PHGConversion.h', 'Partnerize.framework/Headers/PHGConversionItem.h', 'Partnerize.framework/Headers/PHGDefines.h', 'Partnerize.framework/Headers/PHGError.h', 'Partnerize.framework/Headers/Partnerize.h'"
+    s.source_files      = 'Partnerize.framework/Headers/PHGConversion.h', 'Partnerize.framework/Headers/PHGConversionItem.h', 'Partnerize.framework/Headers/PHGDefines.h', 'Partnerize.framework/Headers/PHGError.h', 'Partnerize.framework/Headers/Partnerize.h'
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'Partnerize.framework'
 end
