@@ -1,10 +1,10 @@
 ## Partnerize App Tracking iOS framework.
 
 [![CocoaPods](https://img.shields.io/badge/platform-ios-orange.svg)](https://cocoapods.org/pods/Partnerize)
-[![Languages](https://img.shields.io/badge/languages-ObjC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/intercom/intercom-ios)
+[![Languages](https://img.shields.io/badge/languages-ObjC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios)
 [![CocoaPods](https://img.shields.io/badge/pod-1.0.0-blue.svg)](https://cocoapods.org/pods/Partnerize)
 [![carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![APACHE 2.0 License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/blob/master/LICENSE)
 
 ## Installation
 
