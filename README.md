@@ -4,7 +4,7 @@
 [![Languages](https://img.shields.io/badge/languages-ObjC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/intercom/intercom-ios)
 [![CocoaPods](https://img.shields.io/badge/pod-0.0.1-blue.svg)](https://cocoapods.org/pods/Partnerize)
 [![carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![APACHE 2.0 License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Installation
 
