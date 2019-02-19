@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
 
     s.platform          = :ios, '11.0'
-    s.source            = { :http => 'link to your cocoapods .zip attachment' }
+    s.source            = { :http => 'https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/releases/download/1.0.0/PartnerizePod.zip' }
     s.source_files      = 'Partnerize.framework/Headers/PHGConversion.h', 'Partnerize.framework/Headers/PHGConversionItem.h', 'Partnerize.framework/Headers/PHGDefines.h', 'Partnerize.framework/Headers/PHGError.h', 'Partnerize.framework/Headers/Partnerize.h'
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'Partnerize.framework'
