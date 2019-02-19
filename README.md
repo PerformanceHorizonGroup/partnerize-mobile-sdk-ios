@@ -13,13 +13,13 @@ Partnerize App Tracking iOS framework supports iOS 11 and later.
 ### CocoaPods
 Add the Partnerize pod into your Podfile and run `pod install`.
 
-target :YourTargetName do
-pod 'Partnerize'
-end
+    target :YourTargetName do
+    pod 'Partnerize'
+    end
 
 ### Carthage
 1. Add `github "PerformanceHorizonGroup/partnerize-mobile-sdk-ios"` to your Cartfile.
-2. Run carthage update.
+2. Run `carthage update`.
 3. Go to your Xcode project's "General" settings. Drag `Partnerize.framework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish.
 
 ### Manual Installation
