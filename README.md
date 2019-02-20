@@ -21,6 +21,17 @@ Add the Partnerize pod into your Podfile and run `pod install`.
 1. Add `github "PerformanceHorizonGroup/partnerize-mobile-sdk-ios"` to your Cartfile.
 2. Run `carthage update`.
 3. Go to your Xcode project's "General" settings. Drag `Partnerize.framework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish.
+4. After verifying your project compiles, switch over to Build Phases and add a new Run Script build phase by clicking the + in the top left of the editor. Add the following command:
+
+```/usr/local/bin/carthage copy-frameworks```
+
+5. Click the + under Input Files and add an entry for Partnerize framework:
+
+```$(SRCROOT)/Carthage/Build/iOS/Partnerize.framework```
+
+This build phase isn’t required for your project to run. However, it’s a workaround for an App Store submission bug where apps with frameworks that contain binary images for the iOS simulator are automatically rejected.
+
+The carthage copy-frameworks command strips out these extra architectures. 
 
 ### Manual Installation
 
