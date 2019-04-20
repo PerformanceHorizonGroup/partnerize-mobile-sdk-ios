@@ -1,0 +1,158 @@
+BCSymbolMap Version: 2.0
++[PHGEnvironment serviceURL]
++[PHGEnvironment infoDictionary]
+__infoDictionary
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/PHGEnvironment.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk
+-[PHGConversionRequestLoader initWithURL:client:]
+-[PHGConversionRequestLoader loadWithCompletion:]
+___49-[PHGConversionRequestLoader loadWithCompletion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[PHGConversionRequestLoader url]
+-[PHGConversionRequestLoader setUrl:]
+-[PHGConversionRequestLoader client]
+-[PHGConversionRequestLoader setClient:]
+-[PHGConversionRequestLoader .cxx_destruct]
+_OBJC_IVAR_$_PHGConversionRequestLoader._url
+_OBJC_IVAR_$_PHGConversionRequestLoader._client
+___block_descriptor_tmp
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_PHGRequestLoader
+l_OBJC_LABEL_PROTOCOL_$_PHGRequestLoader
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Networking/PHGConversionRequestLoader.m
+__destroy_helper_block_
+__copy_helper_block_
+__49-[PHGConversionRequestLoader loadWithCompletion:]_block_invoke
+-[NSObject(PHGAdditions) phg_formattedDescription]
+___50-[NSObject(PHGAdditions) phg_formattedDescription]_block_invoke
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/NSObject+PHGAdditions.m
+__50-[NSObject(PHGAdditions) phg_formattedDescription]_block_invoke
++[PHGLogger logError:]
++[PHGLogger logDebug:]
++[PHGLogger logWithLevel:format:args:]
++[PHGLogger setEnabled:]
++[PHGLogger isEnabled]
+__isEnabled
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/PHGLogger.m
+-[PHGConfiguration init]
+-[PHGConfiguration serviceURL]
+-[PHGConfiguration isLoggingEnabled]
+-[PHGConfiguration setLoggingEnabled:]
+-[PHGConfiguration setServiceURL:]
+-[PHGConfiguration .cxx_destruct]
+_OBJC_IVAR_$_PHGConfiguration._serviceURL
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Configuration/PHGConfiguration.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Configuration/PHGConfiguration.h
++[Partnerize beginConversionWithURL:error:]
++[Partnerize completeConversionWithCompletionHandler:]
+___54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke
+___54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke_2
+___copy_helper_block_.51
+___destroy_helper_block_.52
++[Partnerize conversion]
++[Partnerize isLoggingEnabled]
++[Partnerize setEnableLogging:]
++[Partnerize serviceURL]
++[Partnerize setServiceURL:]
++[Partnerize repository]
++[Partnerize configuration]
++[Partnerize client]
++[Partnerize conversionLoaderWithURL:client:]
++[Partnerize filteredURLFromURL:extractedClickRef:]
+__repository
+__conversion
+__configuration
+___block_descriptor_tmp.54
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Partnerize.m
+__54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke_2
+__54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke
+-[PHGConversion conversionURLWithServiceURL:]
+-[PHGConversion validate:]
+-[PHGConversion clickRef]
+-[PHGConversion setClickRef:]
+-[PHGConversion pubRef]
+-[PHGConversion setPubRef:]
+-[PHGConversion adRef]
+-[PHGConversion setAdRef:]
+-[PHGConversion country]
+-[PHGConversion setCountry:]
+-[PHGConversion currency]
+-[PHGConversion setCurrency:]
+-[PHGConversion conversionRef]
+-[PHGConversion setConversionRef:]
+-[PHGConversion custRef]
+-[PHGConversion setCustRef:]
+-[PHGConversion voucher]
+-[PHGConversion setVoucher:]
+-[PHGConversion metadata]
+-[PHGConversion setMetadata:]
+-[PHGConversion items]
+-[PHGConversion setItems:]
+-[PHGConversion .cxx_destruct]
+_OBJC_IVAR_$_PHGConversion._clickRef
+_OBJC_IVAR_$_PHGConversion._pubRef
+_OBJC_IVAR_$_PHGConversion._adRef
+_OBJC_IVAR_$_PHGConversion._country
+_OBJC_IVAR_$_PHGConversion._currency
+_OBJC_IVAR_$_PHGConversion._conversionRef
+_OBJC_IVAR_$_PHGConversion._custRef
+_OBJC_IVAR_$_PHGConversion._voucher
+_OBJC_IVAR_$_PHGConversion._metadata
+_OBJC_IVAR_$_PHGConversion._items
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversion.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversion.h
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversion_Private.h
+-[PHGHTTPClient init]
+-[PHGHTTPClient initWithSession:]
+-[PHGHTTPClient getDataFromURL:completion:]
+___43-[PHGHTTPClient getDataFromURL:completion:]_block_invoke
+-[PHGHTTPClient session]
+-[PHGHTTPClient setSession:]
+-[PHGHTTPClient dataTask]
+-[PHGHTTPClient setDataTask:]
+-[PHGHTTPClient .cxx_destruct]
+_OBJC_IVAR_$_PHGHTTPClient._session
+_OBJC_IVAR_$_PHGHTTPClient._dataTask
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Networking/PHGHTTPClient.m
+__43-[PHGHTTPClient getDataFromURL:completion:]_block_invoke
+-[PHGRepository init]
+-[PHGRepository initWithStorage:]
+-[PHGRepository clickRef]
+-[PHGRepository removeClickRef]
+-[PHGRepository saveClickRef:]
+-[PHGRepository storage]
+-[PHGRepository setStorage:]
+-[PHGRepository .cxx_destruct]
+_OBJC_IVAR_$_PHGRepository._storage
+_OBJC_IVAR_$_PHGRepository.clickRef
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Repository/PHGRepository.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Repository/PHGRepository.h
+-[PHGConversionItem init]
+-[PHGConversionItem initWithValue:]
+-[PHGConversionItem initWithValue:category:]
+-[PHGConversionItem initWithValue:category:quantity:]
+-[PHGConversionItem initWithValue:category:quantity:sku:]
+-[PHGConversionItem initWithValue:category:quantity:sku:metadata:]
+-[PHGConversionItem description]
+-[PHGConversionItem value]
+-[PHGConversionItem setValue:]
+-[PHGConversionItem category]
+-[PHGConversionItem setCategory:]
+-[PHGConversionItem quantity]
+-[PHGConversionItem setQuantity:]
+-[PHGConversionItem sku]
+-[PHGConversionItem setSku:]
+-[PHGConversionItem metadata]
+-[PHGConversionItem setMetadata:]
+-[PHGConversionItem .cxx_destruct]
+_OBJC_IVAR_$_PHGConversionItem._value
+_OBJC_IVAR_$_PHGConversionItem._category
+_OBJC_IVAR_$_PHGConversionItem._quantity
+_OBJC_IVAR_$_PHGConversionItem._sku
+_OBJC_IVAR_$_PHGConversionItem._metadata
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversionItem.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversionItem.h
+/Users/sparepro15/Library/Developer/Xcode/DerivedData/Partnerize-foixmcfoinauuugwdyxdrqvfotry/Build/Intermediates.noindex/ArchiveIntermediates/Partnerize/IntermediateBuildFilesPath/Partnerize.build/Release-iphoneos/Partnerize.build/DerivedSources/Partnerize_vers.c
