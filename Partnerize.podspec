@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|  
     s.name              = 'Partnerize'
-    s.version           = '1.1.0'
+    s.version           = '1.1.1'
     s.summary           = 'Partnerize App Tracking iOS framework.'
     s.description       = 'App Tracking SDK provided by Parnerize to aid advertisers in connecting in-app purchases to their performance marketing activity.'
-    s.homepage          = 'https://partnerize.com/'
+    # s.homepage          = 'https://partnerize.com/'
 
     s.author            = { 'Partnerize Product Development' => 'prod_dev@partnerize.com' }
     s.license           = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
