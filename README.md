@@ -8,7 +8,7 @@
 
 ## Installation
 
-Partnerize App Tracking iOS framework supports iOS 11 and later.
+Partnerize App Tracking iOS framework supports iOS 9 and later.
 
 ### CocoaPods
 Add the Partnerize pod into your Podfile and run `pod install`.
