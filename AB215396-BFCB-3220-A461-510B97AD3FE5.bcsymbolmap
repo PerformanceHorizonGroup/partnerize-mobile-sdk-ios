@@ -1,10 +1,19 @@
 BCSymbolMap Version: 2.0
+-[PHGClick clickRef]
+-[PHGClick setClickRef:]
+-[PHGClick destination]
+-[PHGClick setDestination:]
+-[PHGClick .cxx_destruct]
+_OBJC_IVAR_$_PHGClick._clickRef
+_OBJC_IVAR_$_PHGClick._destination
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClick.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClick.h
 +[PHGEnvironment serviceURL]
 +[PHGEnvironment infoDictionary]
 __infoDictionary
-Apple LLVM version 10.0.0 (clang-1000.11.45.5)
 /Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/PHGEnvironment.m
-/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk
 -[PHGConversionRequestLoader initWithURL:client:]
 -[PHGConversionRequestLoader loadWithCompletion:]
 ___49-[PHGConversionRequestLoader loadWithCompletion:]_block_invoke
@@ -37,6 +46,11 @@ __50-[NSObject(PHGAdditions) phg_formattedDescription]_block_invoke
 +[PHGLogger isEnabled]
 __isEnabled
 /Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/PHGLogger.m
++[ClickLinkHelper isClickLink:]
++[ClickLinkHelper isValidPartnerizeHostName:]
++[ClickLinkHelper isValidClickUrl:]
++[ClickLinkHelper isValidScheme:]
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/ClickLinkHelper.m
 -[PHGConfiguration init]
 -[PHGConfiguration serviceURL]
 -[PHGConfiguration isLoggingEnabled]
@@ -50,8 +64,10 @@ _OBJC_IVAR_$_PHGConfiguration._serviceURL
 +[Partnerize completeConversionWithCompletionHandler:]
 ___54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke
 ___54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke_2
-___copy_helper_block_.51
-___destroy_helper_block_.52
+___copy_helper_block_.49
+___destroy_helper_block_.50
++[Partnerize processUrlAndStoreClickRef:]
++[Partnerize storeClickRef:]
 +[Partnerize conversion]
 +[Partnerize isLoggingEnabled]
 +[Partnerize setEnableLogging:]
@@ -60,15 +76,33 @@ ___destroy_helper_block_.52
 +[Partnerize repository]
 +[Partnerize configuration]
 +[Partnerize client]
++[Partnerize clickManager]
 +[Partnerize conversionLoaderWithURL:client:]
 +[Partnerize filteredURLFromURL:extractedClickRef:]
 __repository
 __conversion
 __configuration
-___block_descriptor_tmp.54
+___block_descriptor_tmp.52
 /Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Partnerize.m
 __54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke_2
 __54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke
+-[PHGClickURLModifier initWithURL:]
+-[PHGClickURLModifier addAPIModeToURL]
+-[PHGClickURLModifier getBaseURL]
+-[PHGClickURLModifier url]
+-[PHGClickURLModifier setUrl:]
+-[PHGClickURLModifier .cxx_destruct]
+_OBJC_IVAR_$_PHGClickURLModifier._url
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickURLModifier.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickURLModifier.h
+-[PHGClickFactory initWithJsonData:]
+-[PHGClickFactory create:]
+-[PHGClickFactory validateJSONresponse:]
+-[PHGClickFactory jsonData]
+-[PHGClickFactory .cxx_destruct]
+_OBJC_IVAR_$_PHGClickFactory._jsonData
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickFactory.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickFactory.h
 -[PHGConversion conversionURLWithServiceURL:]
 -[PHGConversion validate:]
 -[PHGConversion clickRef]
@@ -109,15 +143,39 @@ _OBJC_IVAR_$_PHGConversion._items
 -[PHGHTTPClient initWithSession:]
 -[PHGHTTPClient getDataFromURL:completion:]
 ___43-[PHGHTTPClient getDataFromURL:completion:]_block_invoke
+-[PHGHTTPClient getDataFromUrlSynchronous:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___49-[PHGHTTPClient getDataFromUrlSynchronous:error:]_block_invoke
+___copy_helper_block_.20
+___destroy_helper_block_.21
 -[PHGHTTPClient session]
 -[PHGHTTPClient setSession:]
 -[PHGHTTPClient dataTask]
 -[PHGHTTPClient setDataTask:]
 -[PHGHTTPClient .cxx_destruct]
 _OBJC_IVAR_$_PHGHTTPClient._session
+___block_descriptor_tmp.22
 _OBJC_IVAR_$_PHGHTTPClient._dataTask
+l_OBJC_PROTOCOL_$_PHGHttpClientProtocol
+l_OBJC_LABEL_PROTOCOL_$_PHGHttpClientProtocol
 /Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Networking/PHGHTTPClient.m
+__49-[PHGHTTPClient getDataFromUrlSynchronous:error:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
 __43-[PHGHTTPClient getDataFromURL:completion:]_block_invoke
+-[PHGClickManager initWithClient:]
+-[PHGClickManager createVirtualClick:error:]
+-[PHGClickManager isClickRequest:]
+-[PHGClickManager client]
+-[PHGClickManager setClient:]
+-[PHGClickManager .cxx_destruct]
+_OBJC_IVAR_$_PHGClickManager._client
+l_OBJC_PROTOCOL_$_PHGClickManagerProtocol
+l_OBJC_LABEL_PROTOCOL_$_PHGClickManagerProtocol
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickManager.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickManager.h
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickConstants.m
 -[PHGRepository init]
 -[PHGRepository initWithStorage:]
 -[PHGRepository clickRef]
