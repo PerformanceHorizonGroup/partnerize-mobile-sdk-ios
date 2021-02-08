@@ -1,0 +1,6 @@
+framework module Partnerize {
+  umbrella header "Partnerize.h"
+
+  export *
+  module * { export * }
+}
