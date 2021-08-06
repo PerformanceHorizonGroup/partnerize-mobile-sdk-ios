@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'Partnerize'
-    s.version           = '1.2.3'
+    s.version           = '1.2.4'
     s.summary           = 'Partnerize App Tracking iOS framework.'
     s.description       = 'App Tracking SDK provided by Parnerize to aid advertisers in connecting in-app purchases to their performance marketing activity.'
     s.homepage          = 'https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios'
