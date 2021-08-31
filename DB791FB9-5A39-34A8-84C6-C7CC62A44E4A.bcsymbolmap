@@ -98,6 +98,7 @@ _OBJC_IVAR_$_PHGClickURLModifier._url
 -[PHGClickFactory initWithJsonData:]
 -[PHGClickFactory create:]
 -[PHGClickFactory validateJSONresponse:]
+-[PHGClickFactory buildErrorForFailedValidation:responseValidation:]
 -[PHGClickFactory jsonData]
 -[PHGClickFactory .cxx_destruct]
 _OBJC_IVAR_$_PHGClickFactory._jsonData
@@ -147,15 +148,16 @@ ___43-[PHGHTTPClient getDataFromURL:completion:]_block_invoke
 ___Block_byref_object_copy_
 ___Block_byref_object_dispose_
 ___49-[PHGHTTPClient getDataFromUrlSynchronous:error:]_block_invoke
-___copy_helper_block_.20
-___destroy_helper_block_.21
+___copy_helper_block_.22
+___destroy_helper_block_.23
+-[PHGHTTPClient isResponseOkay:]
 -[PHGHTTPClient session]
 -[PHGHTTPClient setSession:]
 -[PHGHTTPClient dataTask]
 -[PHGHTTPClient setDataTask:]
 -[PHGHTTPClient .cxx_destruct]
 _OBJC_IVAR_$_PHGHTTPClient._session
-___block_descriptor_tmp.22
+___block_descriptor_tmp.24
 _OBJC_IVAR_$_PHGHTTPClient._dataTask
 l_OBJC_PROTOCOL_$_PHGHttpClientProtocol
 l_OBJC_LABEL_PROTOCOL_$_PHGHttpClientProtocol
