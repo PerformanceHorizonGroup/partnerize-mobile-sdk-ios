@@ -1,88 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Partnerize  Reference</title>
-    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
-    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
-    <meta charset='utf-8'>
-    <script src="js/jquery.min.js" defer></script>
-    <script src="js/jazzy.js" defer></script>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Partnerize Mobile SDK - iOS</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="css/extra.css" rel="stylesheet">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Partnerize Mobile SDK - iOS</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
     
-  </head>
-  <body>
-    <a title="Partnerize  Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="index.html">Partnerize Docs</a> (100% documented)</p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="index.html">Partnerize Reference</a>
-        <img id="carat" src="img/carat.png" />
-        Partnerize  Reference
-      </p>
-    </div>
-    <div class="content-wrapper">
-      <nav class="sidebar">
-        <ul class="nav-groups">
-          <li class="nav-group-name">
-            <a href="Classes.html">Classes</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Classes/PHGConversion.html">PHGConversion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/PHGConversionItem.html">PHGConversionItem</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/Partnerize.html">Partnerize</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="Constants.html">Constants</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Constants.html#/c:@PHGErrorDomain">PHGErrorDomain</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="Enums.html">Enumerations</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Enums/PHGError.html">PHGError</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="Type Definitions.html">Type Definitions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Type Definitions.html#/c:Partnerize.h@T@PHGConversionHandler">PHGConversionHandler</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <article class="main-content">
-        <section>
-          <section class="section">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
             
-            <h1 id='partnerize' class='heading'>Partnerize</h1>
-<h3 id='authors' class='heading'>Authors</h3>
-
-<p>Partnerize</p>
-
-          </section>
-        </section>
-        <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://partnerize.com" target="_blank" rel="external">Partnerize</a>. All rights reserved. (Last updated: 2019-02-14)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
-      </article>
+            <li class="nav-item" data-level="1"><a href="#introduction" class="nav-link">Introduction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#quick-start" class="nav-link">Quick Start</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#installation" class="nav-link">Installation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#handling-inbound-clicks" class="nav-link">Handling inbound clicks</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#posting-conversions-to-partnerize" class="nav-link">Posting Conversions to Partnerize</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#resources" class="nav-link">Resources</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#conversion" class="nav-link">Conversion</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#conversionitem" class="nav-link">ConversionItem</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#development-mode" class="nav-link">Development Mode</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#license" class="nav-link">License</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#release-notes" class="nav-link">Release Notes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
     </div>
-  </body>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="introduction">Introduction</h1>
+<p>The iOS Mobile SDK allows you to capture in-app referrals, and easily record any sales that occur on the back of these referrals within your iOS application. It supports both Swift and Objective-C.</p>
+<p>The SDK provides two model classes; <code>Conversion</code> and <code>ConversionItem</code>. The <code>Partnerize</code> class is also used to provide functionality for dealing with inbound clicks, the combination of these classes enables the following features within your iOS app.</p>
+<ul>
+<li>Click reference retrieval from inbound requests.</li>
+<li>Conversion creation with a range of attributes including custom metadata.</li>
+<li>Conversion item support for accurate shopping basket representation.</li>
+<li>Deep linking support for Web to App and App to App.</li>
+</ul>
+<h1 id="quick-start">Quick Start</h1>
+<h2 id="installation">Installation</h2>
+<h3 id="cocoapods">CocoaPods</h3>
+<p>Add the Partnerize pod into your <code>Podfile</code> and run <code>pod install</code>.</p>
+<pre><code>target :YourTargetName do
+  pod 'Partnerize'
+end
+</code></pre>
+<h3 id="carthage">Carthage</h3>
+<ol>
+<li>Add <code>github "PerformanceHorizonGroup/partnerize-mobile-sdk-ios"</code> to your Cartfile.</li>
+<li>Run <code>carthage update</code>.</li>
+<li>Go to your Xcode project's "General" settings. Drag <code>Partnerize.framework</code> from <code>Carthage/Build/iOS</code> to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish.</li>
+<li>After verifying your project compiles, switch over to Build Phases and add a new Run Script build phase by clicking the + in the top left of the editor. Add the following command:</li>
+</ol>
+<p><code>/usr/local/bin/carthage copy-frameworks</code></p>
+<ol>
+<li>Click the + under Input Files and add an entry for Partnerize framework:</li>
+</ol>
+<p><code>$(SRCROOT)/Carthage/Build/iOS/Partnerize.framework</code></p>
+<p>This build phase isn’t required for your project to run. However, it’s a workaround for an App Store submission bug where apps with frameworks that contain binary images for the iOS simulator are automatically rejected.</p>
+<p>The carthage copy-frameworks command strips out these extra architectures.</p>
+<h3 id="manual-installation">Manual Installation</h3>
+<ol>
+<li><a href="https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/archive/master.zip">Download Partnerize for iOS</a> and extract the zip.</li>
+<li>Go to your Xcode project's "General" settings. Drag <code>Partnerize.framework</code> to the "Embedded Binaries" section. Make sure "Copy items if needed" is selected and click Finish.</li>
+<li>Create a new “Run Script Phase” in your app’s target’s “Build Phases” and paste the following snippet in the script test field:</li>
+</ol>
+<p><code>bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Partnerize.framework/strip-frameworks.sh"</code></p>
+<h3 id="example-app">Example app</h3>
+<p>There is an example app provided <a href="https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/tree/master/SampleCode">here</a> for Swift.</p>
+<h1 id="handling-inbound-clicks">Handling inbound clicks</h1>
+<p>When an inbound intent from a mobile web browser or iOS app launches your iOS app via a deep link. This prepares an internal conversion object using Universal Link for further use and returns a new url containing original url with the <code>app_clickref</code> parameter stripped.</p>
+<p>when conversion is completed.</p>
+<pre><code class="language-swift">func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -&gt; Void) -&gt; Bool {
+
+       if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
+           let url = try? Partnerize.beginConversion(with: userActivity.webpageURL)
+       }
+
+</code></pre>
+<h2 id="posting-conversions-to-partnerize">Posting Conversions to Partnerize</h2>
+<p>Once a conversion has been constructed and is ready to be recorded, it be can be sent to Partnerize using the following method. The completion block returns the status of the conversion and an error.</p>
+<pre><code class="language-swift">Partnerize.completeConversion { isSuccess, error in
+  if isSuccess {
+    print(&quot;conversion logged&quot;)
+  }
+}
+</code></pre>
+<h1 id="resources">Resources</h1>
+<h2 id="conversion">Conversion</h2>
+<p>The <code>Conversion</code> class describes attributes and items within a conversion. This is accessed as a property on the <code>Partnerize</code> class.</p>
+<pre><code class="language-swift">    Partnerize.conversion?.adRef = &quot;myAddRef&quot;
+    Partnerize.conversion?.pubRef = &quot;myPublisherRef&quot;
+    Partnerize.conversion?.country = &quot;US&quot;
+    Partnerize.conversion?.currency = &quot;USD&quot;
+    Partnerize.conversion?.conversionRef = &quot;myConversionRef&quot;
+    Partnerize.conversion?.custRef = &quot;myCustomerRef&quot;
+    Partnerize.conversion?.voucher = &quot;25OFF&quot;
+    Partnerize.conversion?.tsource = PHGAffiliateTrafficSource //&quot;Affiliate&quot;
+    Partnerize.conversion?.customerType = .PHGNew
+    Partnerize.conversion?.tmetric = PHGCheckoutConversionMetric // &quot;Checkout&quot;
+    Partnerize.conversion?.metadata = [&quot;payment_type&quot; : &quot;crypto_currency&quot;]
+
+    Partnerize.conversion?.items = [ConversionItem(value: &quot;11.99&quot;, category: &quot;Shoes&quot;, quantity: &quot;1&quot;, sku: &quot;mySku&quot;)]
+
+</code></pre>
+<h3 id="clearing-the-clickref">Clearing the Clickref</h3>
+<p>It may be necessary to clear the click ref, this can be done with the following.</p>
+<pre><code class="language-swift">  Partnerize.conversion?.clearClickref()
+</code></pre>
+<h3 id="trafficsource">TrafficSource</h3>
+<p>The <code>PHGConversionTrafficSource</code> constants such as <code>PHGAffiliateTrafficSource</code> are for used for setting the traffic source on a conversion.
+Raw strings can also be used however, the Partnerize platform only accepts a predefined list of traffic sources.</p>
+<h3 id="customertype">CustomerType</h3>
+<p>This enum can either be <code>CustomerType.EXISTING</code> or <code>CustomerType.NEW</code>, and is used for setting the customer type on a conversion.</p>
+<h3 id="conversionmetric">ConversionMetric</h3>
+<p>The <code>PHGConversionMetric</code> constants such as <code>PHGCheckoutConversionMetric</code> are for use for setting the conversion metric on a conversion.
+Raw strings can also be used however, the Partnerize platform only accepts a predefined list of traffic sources.</p>
+<h2 id="conversionitem"><code>ConversionItem</code></h2>
+<p>The <code>ConversionItem</code> class is a representation of an item within a Conversion to better represent a shopping basket.
+A <code>ConversionItem</code> requires a <code>value</code> and <code>category</code> for each item however additional attributes can be associated; <code>quantity</code>, <code>sku</code> as well as custom metadata similar to conversions.</p>
+<pre><code class="language-swift">let conversionItems = [
+      ConversionItem(value: &quot;9.99&quot;, category: &quot;Tops&quot;),
+      ConversionItem(value: &quot;9.99&quot;, category: &quot;Tops&quot;, quantity: &quot;1&quot;),
+      ConversionItem(value: &quot;9.99&quot;, category: &quot;Shoes&quot;, quantity: &quot;3&quot;, sku: &quot;TRA-SPT-FIV&quot;),
+    ]  
+
+    conversionItems.first?.metadata = [&quot;season&quot; : &quot;winter&quot;]
+</code></pre>
+<h2 id="development-mode">Development Mode</h2>
+<p>During development of your iOS app you may need to debug the requests being made.</p>
+<pre><code class="language-swift">  conversion.metadata = [&quot;development_mode&quot; : &quot;yes&quot;]
+</code></pre>
+<h3 id="logging">Logging</h3>
+<p>Logging may also be useful for debugging, this can help track errors when using the Partnerize SDK. This can be enabled like so.</p>
+<pre><code class="language-swift">  Partnerize.isLoggingEnabled = true
+</code></pre>
+<h1 id="license">License</h1>
+<p><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a></p>
+<h1 id="release-notes">Release Notes</h1>
+<p>Release notes can be found <a href="https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/releases">here</a></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
+
+    </body>
 </html>
+
+<!--
+MkDocs version : 1.2.2
+Build Date UTC : 2021-09-15 14:49:33.451709+00:00
+-->
