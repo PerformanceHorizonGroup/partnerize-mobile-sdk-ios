@@ -1,3 +1,4 @@
+
 ## Partnerize App Tracking iOS framework.
 
 [![CocoaPods](https://img.shields.io/badge/platform-ios-orange.svg)](https://cocoapods.org/pods/Partnerize)
@@ -6,44 +7,21 @@
 [![carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/blob/master/LICENSE)
 
-## Installation
+The iOS Mobile SDK allows you to capture in-app referrals, and easily record any sales that occur on the back of these referrals within your iOS application. It supports both Swift and Objective-C.
+
+The SDK provides two model classes; Conversion and ConversionItem. The Partnerize class is also used to provide functionality for dealing with inbound clicks, the combination of these classes enables the following features within your iOS app.
+
+Click reference retrieval from inbound requests.
+Conversion creation with a range of attributes including custom metadata.
+Conversion item support for accurate shopping basket representation.
+Deep linking support for Web to App and App to App.
 
 Partnerize App Tracking iOS framework supports iOS 9 and later.
 
-### CocoaPods
-Add the Partnerize pod into your Podfile and run `pod install`.
 
-    target :YourTargetName do
-    pod 'Partnerize'
-    end
+## Installation Guide and Docs
+https://performancehorizongroup.github.io/partnerize-mobile-sdk-ios/
 
-### Carthage
-1. Add `github "PerformanceHorizonGroup/partnerize-mobile-sdk-ios"` to your Cartfile.
-2. Run `carthage update`.
-3. Go to your Xcode project's "General" settings. Drag `Partnerize.framework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish.
-4. After verifying your project compiles, switch over to Build Phases and add a new Run Script build phase by clicking the + in the top left of the editor. Add the following command:
-
-```/usr/local/bin/carthage copy-frameworks```
-
-5. Click the + under Input Files and add an entry for Partnerize framework:
-
-```$(SRCROOT)/Carthage/Build/iOS/Partnerize.framework```
-
-This build phase isn’t required for your project to run. However, it’s a workaround for an App Store submission bug where apps with frameworks that contain binary images for the iOS simulator are automatically rejected.
-
-The carthage copy-frameworks command strips out these extra architectures. 
-
-### Manual Installation
-
-1. [Download Partnerize for iOS](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/archive/master.zip) and extract the zip.
-2. Go to your Xcode project's "General" settings. Drag `Partnerize.framework` to the "Embedded Binaries" section. Make sure "Copy items if needed" is selected and click Finish.
-3. Create a new “Run Script Phase” in your app’s target’s “Build Phases” and paste the following snippet in the script test field:
-
-```bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Partnerize.framework/strip-frameworks.sh"```
-
-## Documentation
-SDK API documentation is available [here](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/blob/master/docs/).
 
 ## Example app
 There is an example app provided [here](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/tree/master/SampleCode) for Swift.
-
