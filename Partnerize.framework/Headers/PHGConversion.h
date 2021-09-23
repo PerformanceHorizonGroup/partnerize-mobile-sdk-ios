@@ -17,7 +17,9 @@
 ////////////////////////////////////////////////////////////////////////////
 
 #import <UIKit/UIKit.h>
+
 #import <Partnerize/PHGConversionItem.h>
+#import <Partnerize/PHGCustomerType.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -45,6 +47,12 @@ NS_SWIFT_NAME(Conversion)
 @property (nonatomic, copy, nullable) NSDictionary<NSString *, NSString *> *metadata;
 /// Optional conversion parameter: `items`. If `items` set, each `item` must contain non-empty `value` and `category` properties
 @property (nonatomic, copy, nullable) NSArray<PHGConversionItem *> *items;
+/// Optional conversion parameter: `tsource` (Traffic Source). Constants defined in PHGConversionTrafficSource.h can be used here.
+@property (nonatomic, copy, nullable) NSString *tsource;
+/// Optional conversion parameter: `tmetric`. Constants defined in PHGConversionMetric.h can be used here.
+@property (nonatomic, copy, nullable) NSString *tmetric;
+/// Optional conversion parameter: `customerType`
+@property (nonatomic) PHGCustomerType customerType;
 
 /**
  Validates conversion using all the provided conversion properties.
@@ -57,6 +65,9 @@ NS_SWIFT_NAME(Conversion)
  - Returns: validation result status.
  */
 - (BOOL)validate:(NSError * __nullable __autoreleasing * __nullable)errorPtr;
+
+/// Clears the conversion click reference
+- (void)clearClickref;
 
 @end
 

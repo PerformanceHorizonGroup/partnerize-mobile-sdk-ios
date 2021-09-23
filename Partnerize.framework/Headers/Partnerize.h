@@ -19,7 +19,9 @@
 #import <Foundation/Foundation.h>
 #import <Partnerize/PHGConversion.h>
 #import <Partnerize/PHGError.h>
-
+#import <Partnerize/PHGConversionTrafficSource.h>
+#import <Partnerize/PHGConversionMetric.h>
+#import <Partnerize/PHGClick.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /// Typealias for block which will be called upon conversion completion
@@ -54,6 +56,12 @@ typedef void (^PHGConversionHandler)(BOOL success, NSError * __nullable error) N
  - Returns: A new url containing original `url` with app_clickref parameter stripped.
  */
 + (nullable NSURL *)beginConversionWithURL:(nullable NSURL *)url error:(NSError * __nullable __autoreleasing * __nullable)errorPtr;
+
+
+
++ (nullable PHGClick *)beginConversion:(nullable NSURL *)url error:(NSError * __nullable __autoreleasing * __nullable)errorPtr;
+
+
 
 /**
  Finalises conversion by calling Partnerize SaaS with configured PHGConversion conversion object.
