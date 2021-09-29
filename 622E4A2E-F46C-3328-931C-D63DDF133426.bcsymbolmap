@@ -1,0 +1,288 @@
+BCSymbolMap Version: 2.0
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversionTrafficSource.m
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk
+-[PHGClick clickRef]
+-[PHGClick setClickRef:]
+-[PHGClick camRef]
+-[PHGClick setCamRef:]
+-[PHGClick destination]
+-[PHGClick setDestination:]
+-[PHGClick destinationMobile]
+-[PHGClick setDestinationMobile:]
+-[PHGClick utmParams]
+-[PHGClick setUtmParams:]
+-[PHGClick meta]
+-[PHGClick setMeta:]
+-[PHGClick .cxx_destruct]
+_OBJC_IVAR_$_PHGClick._clickRef
+_OBJC_IVAR_$_PHGClick._camRef
+_OBJC_IVAR_$_PHGClick._destination
+_OBJC_IVAR_$_PHGClick._destinationMobile
+_OBJC_IVAR_$_PHGClick._utmParams
+_OBJC_IVAR_$_PHGClick._meta
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClick.m
+Partnerize/Sources/Click/PHGClick.m
+Partnerize/Sources/Click/PHGClick.h
++[PHGEnvironment serviceURL]
++[PHGEnvironment infoDictionary]
+__infoDictionary
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/PHGEnvironment.m
+Partnerize/Sources/Common/PHGEnvironment.m
+-[PHGConversionRequestLoader initWithURL:client:]
+-[PHGConversionRequestLoader loadWithCompletion:]
+___49-[PHGConversionRequestLoader loadWithCompletion:]_block_invoke
+___copy_helper_block_e4_20b
+___destroy_helper_block_e4_20s
+-[PHGConversionRequestLoader url]
+-[PHGConversionRequestLoader setUrl:]
+-[PHGConversionRequestLoader client]
+-[PHGConversionRequestLoader setClient:]
+-[PHGConversionRequestLoader .cxx_destruct]
+___block_descriptor_24_e4_20bs_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_PHGRequestLoader
+__OBJC_LABEL_PROTOCOL_$_PHGRequestLoader
+_OBJC_IVAR_$_PHGConversionRequestLoader._url
+_OBJC_IVAR_$_PHGConversionRequestLoader._client
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Networking/PHGConversionRequestLoader.m
+Partnerize/Sources/Networking/PHGConversionRequestLoader.m
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20b
+__49-[PHGConversionRequestLoader loadWithCompletion:]_block_invoke
+-[NSObject(PHGAdditions) phg_formattedDescription]
+___50-[NSObject(PHGAdditions) phg_formattedDescription]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+-[NSObject(PHGAdditions) applyCustomerType:]
+___block_descriptor_28_e4_20s24s_e34_v16?0"NSString"4"NSString"8^c12l
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/NSObject+PHGAdditions.m
+Partnerize/Sources/Common/NSObject+PHGAdditions.m
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__50-[NSObject(PHGAdditions) phg_formattedDescription]_block_invoke
++[PHGLogger logError:]
++[PHGLogger logDebug:]
++[PHGLogger logWithLevel:format:args:]
++[PHGLogger setEnabled:]
++[PHGLogger isEnabled]
+__isEnabled
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Common/PHGLogger.m
+Partnerize/Sources/Common/PHGLogger.m
++[ClickLinkHelper isClickLink:]
++[ClickLinkHelper isValidPartnerizeHostName:]
++[ClickLinkHelper isValidClickUrl:]
++[ClickLinkHelper isValidScheme:]
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/ClickLinkHelper.m
+Partnerize/Sources/Click/ClickLinkHelper.m
+-[PHGConfiguration init]
+-[PHGConfiguration serviceURL]
+-[PHGConfiguration isLoggingEnabled]
+-[PHGConfiguration setLoggingEnabled:]
+-[PHGConfiguration setServiceURL:]
+-[PHGConfiguration .cxx_destruct]
+_OBJC_IVAR_$_PHGConfiguration._serviceURL
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Configuration/PHGConfiguration.m
+Partnerize/Sources/Configuration/PHGConfiguration.m
+Partnerize/Sources/Configuration/PHGConfiguration.h
++[Partnerize beginConversionWithURL:error:]
++[Partnerize beginConversion:error:]
++[Partnerize createVirtualClick:error:]
++[Partnerize completeConversionWithCompletionHandler:]
+___54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke
+___54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke_2
+___copy_helper_block_e4_20s24b
++[Partnerize processUrlAndStoreClickRef:]
++[Partnerize storeClickRef:]
++[Partnerize conversion]
++[Partnerize isLoggingEnabled]
++[Partnerize setEnableLogging:]
++[Partnerize serviceURL]
++[Partnerize setServiceURL:]
++[Partnerize repository]
++[Partnerize configuration]
++[Partnerize client]
++[Partnerize clickManager]
++[Partnerize conversionLoaderWithURL:client:]
++[Partnerize filteredURLFromURL:extractedClickRef:]
+__repository
+__conversion
+__configuration
+___block_descriptor_28_e4_20s24bs_e5_v4?0l
+___block_descriptor_28_e4_20s24bs_e27_v12?0"NSData"4"NSError"8l
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Partnerize.m
+Partnerize/Sources/Partnerize.m
+__copy_helper_block_e4_20s24b
+__54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke_2
+__54+[Partnerize completeConversionWithCompletionHandler:]_block_invoke
+-[PHGClickURLModifier initWithURL:]
+-[PHGClickURLModifier addAPIModeToURL]
+-[PHGClickURLModifier getBaseURL]
+-[PHGClickURLModifier url]
+-[PHGClickURLModifier setUrl:]
+-[PHGClickURLModifier .cxx_destruct]
+_OBJC_IVAR_$_PHGClickURLModifier._url
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickURLModifier.m
+Partnerize/Sources/Click/PHGClickURLModifier.m
+Partnerize/Sources/Click/PHGClickURLModifier.h
+-[PHGClickFactory initWithJsonData:]
+-[PHGClickFactory create:]
+-[PHGClickFactory parseClickFromJson:]
+___38-[PHGClickFactory parseClickFromJson:]_block_invoke
+___38-[PHGClickFactory parseClickFromJson:]_block_invoke_2
+-[PHGClickFactory extractUtmParams::]
+-[PHGClickFactory validateJSONresponse:]
+-[PHGClickFactory buildErrorForFailedValidation:responseValidation:]
+-[PHGClickFactory jsonData]
+-[PHGClickFactory .cxx_destruct]
+___block_descriptor_20_e24_c12?04"NSDictionary"8l
+___block_literal_global
+___block_literal_global.47
+_OBJC_IVAR_$_PHGClickFactory._jsonData
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickFactory.m
+Partnerize/Sources/Click/PHGClickFactory.m
+Partnerize/Sources/Click/PHGClickFactory.h
+__38-[PHGClickFactory parseClickFromJson:]_block_invoke_2
+__38-[PHGClickFactory parseClickFromJson:]_block_invoke
+-[PHGConversion conversionURLWithServiceURL:]
+-[PHGConversion validate:]
+-[PHGConversion clearClickref]
+-[PHGConversion clickRef]
+-[PHGConversion setClickRef:]
+-[PHGConversion pubRef]
+-[PHGConversion setPubRef:]
+-[PHGConversion adRef]
+-[PHGConversion setAdRef:]
+-[PHGConversion country]
+-[PHGConversion setCountry:]
+-[PHGConversion currency]
+-[PHGConversion setCurrency:]
+-[PHGConversion conversionRef]
+-[PHGConversion setConversionRef:]
+-[PHGConversion custRef]
+-[PHGConversion setCustRef:]
+-[PHGConversion voucher]
+-[PHGConversion setVoucher:]
+-[PHGConversion metadata]
+-[PHGConversion setMetadata:]
+-[PHGConversion items]
+-[PHGConversion setItems:]
+-[PHGConversion tsource]
+-[PHGConversion setTsource:]
+-[PHGConversion tmetric]
+-[PHGConversion setTmetric:]
+-[PHGConversion customerType]
+-[PHGConversion setCustomerType:]
+-[PHGConversion .cxx_destruct]
+_OBJC_IVAR_$_PHGConversion._clickRef
+_OBJC_IVAR_$_PHGConversion._pubRef
+_OBJC_IVAR_$_PHGConversion._adRef
+_OBJC_IVAR_$_PHGConversion._country
+_OBJC_IVAR_$_PHGConversion._currency
+_OBJC_IVAR_$_PHGConversion._conversionRef
+_OBJC_IVAR_$_PHGConversion._custRef
+_OBJC_IVAR_$_PHGConversion._voucher
+_OBJC_IVAR_$_PHGConversion._metadata
+_OBJC_IVAR_$_PHGConversion._items
+_OBJC_IVAR_$_PHGConversion._tsource
+_OBJC_IVAR_$_PHGConversion._tmetric
+_OBJC_IVAR_$_PHGConversion._customerType
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversion.m
+Partnerize/Sources/Conversion/PHGConversion.m
+Partnerize/Sources/Conversion/PHGConversion.h
+Partnerize/Sources/Conversion/PHGConversion_Private.h
+-[PHGConversionPathBuilder build:conversion:]
+-[PHGConversionPathBuilder appendDeviceParams:]
+-[PHGConversionPathBuilder buildVersionParam]
+-[PHGConversionPathBuilder appendConversionItems:result:]
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversionPathBuilder.m
+Partnerize/Sources/Conversion/PHGConversionPathBuilder.m
+-[PHGHTTPClient init]
+-[PHGHTTPClient initWithSession:]
+-[PHGHTTPClient getDataFromURL:completion:]
+___43-[PHGHTTPClient getDataFromURL:completion:]_block_invoke
+___copy_helper_block_e4_20b24w
+___destroy_helper_block_e4_20s24w
+-[PHGHTTPClient getDataFromUrlSynchronous:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___49-[PHGHTTPClient getDataFromUrlSynchronous:error:]_block_invoke
+___copy_helper_block_e4_20s24s28r32r
+___destroy_helper_block_e4_20s24s28r32r
+-[PHGHTTPClient isResponseOkay:]
+-[PHGHTTPClient session]
+-[PHGHTTPClient setSession:]
+-[PHGHTTPClient dataTask]
+-[PHGHTTPClient setDataTask:]
+-[PHGHTTPClient .cxx_destruct]
+___block_descriptor_28_e4_20bs24w_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+___block_descriptor_36_e4_20s24s28r32r_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+__OBJC_PROTOCOL_$_PHGHttpClientProtocol
+__OBJC_LABEL_PROTOCOL_$_PHGHttpClientProtocol
+_OBJC_IVAR_$_PHGHTTPClient._session
+_OBJC_IVAR_$_PHGHTTPClient._dataTask
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Networking/PHGHTTPClient.m
+Partnerize/Sources/Networking/PHGHTTPClient.m
+__destroy_helper_block_e4_20s24s28r32r
+__copy_helper_block_e4_20s24s28r32r
+__49-[PHGHTTPClient getDataFromUrlSynchronous:error:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__destroy_helper_block_e4_20s24w
+__copy_helper_block_e4_20b24w
+__43-[PHGHTTPClient getDataFromURL:completion:]_block_invoke
+-[PHGClickManager initWithClient:]
+-[PHGClickManager createVirtualClick:error:]
+-[PHGClickManager isClickRequest:]
+-[PHGClickManager client]
+-[PHGClickManager setClient:]
+-[PHGClickManager .cxx_destruct]
+__OBJC_PROTOCOL_$_PHGClickManagerProtocol
+__OBJC_LABEL_PROTOCOL_$_PHGClickManagerProtocol
+_OBJC_IVAR_$_PHGClickManager._client
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickManager.m
+Partnerize/Sources/Click/PHGClickManager.m
+Partnerize/Sources/Click/PHGClickManager.h
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Click/PHGClickConstants.m
+-[PHGRepository init]
+-[PHGRepository initWithStorage:]
+-[PHGRepository clickRef]
+-[PHGRepository removeClickRef]
+-[PHGRepository saveClickRef:]
+-[PHGRepository storage]
+-[PHGRepository setStorage:]
+-[PHGRepository .cxx_destruct]
+_OBJC_IVAR_$_PHGRepository.clickRef
+_OBJC_IVAR_$_PHGRepository._storage
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Repository/PHGRepository.m
+Partnerize/Sources/Repository/PHGRepository.m
+Partnerize/Sources/Repository/PHGRepository.h
+-[PHGConversionItem init]
+-[PHGConversionItem initWithValue:]
+-[PHGConversionItem initWithValue:category:]
+-[PHGConversionItem initWithValue:category:quantity:]
+-[PHGConversionItem initWithValue:category:quantity:sku:]
+-[PHGConversionItem initWithValue:category:quantity:sku:metadata:]
+-[PHGConversionItem description]
+-[PHGConversionItem value]
+-[PHGConversionItem setValue:]
+-[PHGConversionItem category]
+-[PHGConversionItem setCategory:]
+-[PHGConversionItem quantity]
+-[PHGConversionItem setQuantity:]
+-[PHGConversionItem sku]
+-[PHGConversionItem setSku:]
+-[PHGConversionItem metadata]
+-[PHGConversionItem setMetadata:]
+-[PHGConversionItem .cxx_destruct]
+_OBJC_IVAR_$_PHGConversionItem._value
+_OBJC_IVAR_$_PHGConversionItem._category
+_OBJC_IVAR_$_PHGConversionItem._quantity
+_OBJC_IVAR_$_PHGConversionItem._sku
+_OBJC_IVAR_$_PHGConversionItem._metadata
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversionItem.m
+Partnerize/Sources/Conversion/PHGConversionItem.m
+Partnerize/Sources/Conversion/PHGConversionItem.h
+/Users/sparepro15/builds/7549a4ee/0/mobile/partnerize-ios-sdk/Partnerize/Sources/Conversion/PHGConversionMetric.m
+/Users/sparepro15/Library/Developer/Xcode/DerivedData/Partnerize-foixmcfoinauuugwdyxdrqvfotry/Build/Intermediates.noindex/ArchiveIntermediates/Partnerize/IntermediateBuildFilesPath/Partnerize.build/Release-iphoneos/Partnerize.build/DerivedSources/Partnerize_vers.c
