@@ -4,8 +4,3 @@ framework module Partnerize {
   export *
   module * { export * }
 }
-
-module Partnerize.Swift {
-    header "Partnerize-Swift.h"
-    requires objc
-}
