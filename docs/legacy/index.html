@@ -4,27 +4,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Partnerize Mobile SDK - iOS</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>1.0 - Partnerize Mobile SDK - iOS</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
-        <link href="css/extra.css" rel="stylesheet">
+        <link href="../css/extra.css" rel="stylesheet">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Partnerize Mobile SDK - iOS</a>
+                <a class="navbar-brand" href="..">Partnerize Mobile SDK - iOS</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,14 +34,14 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">2.0</a>
+                            </li>
                             <li class="navitem active">
-                                <a href="." class="nav-link">2.0</a>
+                                <a href="./" class="nav-link">1.0</a>
                             </li>
                             <li class="navitem">
-                                <a href="legacy/" class="nav-link">1.0</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="migration-2.0/" class="nav-link">Migration Guide</a>
+                                <a href="../migration-2.0/" class="nav-link">Migration Guide</a>
                             </li>
                         </ul>
 
@@ -52,12 +52,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="legacy/" class="nav-link">
+                                <a rel="next" href="../migration-2.0/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -95,19 +95,10 @@
             
             <li class="nav-item" data-level="1"><a href="#handling-inbound-clicks" class="nav-link">Handling inbound clicks</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#synchronous" class="nav-link">Synchronous</a>
+            <li class="nav-item" data-level="2"><a href="#posting-conversions-to-partnerize" class="nav-link">Posting Conversions to Partnerize</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#asynchronous" class="nav-link">Asynchronous</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#posting-conversions-to-partnerize" class="nav-link">Posting Conversions to Partnerize</a>
-              <ul class="nav flex-column">
               </ul>
             </li>
             
@@ -129,27 +120,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#logging" class="nav-link">Logging</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#error-handling" class="nav-link">Error Handling</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#configuration" class="nav-link">Configuration</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
             
             <li class="nav-item" data-level="1"><a href="#license" class="nav-link">License</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#support" class="nav-link">Support</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -164,22 +138,20 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="introduction">Introduction</h1>
-<p>The iOS Mobile SDK allows you to capture in-app referrals, and easily record any sales that occur on the back of these referrals within your iOS application.
-The SDK enables the following features within your iOS app:</p>
+<p>The iOS Mobile SDK allows you to capture in-app referrals, and easily record any sales that occur on the back of these referrals within your iOS application. It supports both Swift and Objective-C.</p>
+<p>The SDK provides two model classes; <code>Conversion</code> and <code>ConversionItem</code>. The <code>Partnerize</code> class is also used to provide functionality for dealing with inbound clicks, the combination of these classes enables the following features within your iOS app.</p>
 <ul>
 <li>Click reference retrieval from inbound requests.</li>
 <li>Conversion creation with a range of attributes including custom metadata.</li>
 <li>Conversion item support for accurate shopping basket representation.</li>
 <li>Deep linking support for Web to App and App to App.</li>
 </ul>
-<p>These docs are specifically for version 2 of the SDK. If you're still using version 1.X, please find the legacy docs <a href="./legacy">here</a>.</p>
-<p>Most public methods use the Swift <a href="https://developer.apple.com/documentation/swift/result">Result</a> type and can return a <code>PartnerizeError</code>.</p>
 <h1 id="quick-start">Quick Start</h1>
 <h2 id="installation">Installation</h2>
 <h3 id="cocoapods">CocoaPods</h3>
 <p>Add the Partnerize pod into your <code>Podfile</code> and run <code>pod install</code>.</p>
 <pre><code>target :YourTargetName do
-  pod 'Partnerize', '~&gt; 2.0'
+  pod 'Partnerize'
 end
 </code></pre>
 <h3 id="carthage">Carthage</h3>
@@ -199,152 +171,106 @@ end
 <h3 id="manual-installation">Manual Installation</h3>
 <ol>
 <li><a href="https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/archive/master.zip">Download Partnerize for iOS</a> and extract the zip.</li>
-<li>
-<p>Go to your Xcode project's "General" settings. Drag <code>Partnerize.xcframework</code> to the "Embedded Binaries" section. Make sure "Copy items if needed" is selected and click Finish.</p>
-</li>
-<li>
-<p>For more information view this <a href="https://www.simpleswiftguide.com/how-to-add-xcframework-to-xcode-project/">guide</a></p>
-</li>
+<li>Go to your Xcode project's "General" settings. Drag <code>Partnerize.framework</code> to the "Embedded Binaries" section. Make sure "Copy items if needed" is selected and click Finish.</li>
+<li>Create a new “Run Script Phase” in your app’s target’s “Build Phases” and paste the following snippet in the script test field:</li>
 </ol>
+<p><code>bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Partnerize.framework/strip-frameworks.sh"</code></p>
+<h3 id="example-app">Example app</h3>
+<p>There is an example app provided <a href="https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/tree/master/SampleCode">here</a> for Swift.</p>
 <h1 id="handling-inbound-clicks">Handling inbound clicks</h1>
-<p>When an inbound intent from a mobile web browser or iOS app launches your iOS app via a deep link, use the method <code>handleInboundURL(url)</code>. One synchronous, and one asynchronous. Which one you use is up to you but note the synchronous will block and therefore impact your app launch time.</p>
-<p>In addition, Partnerize will also store the clickRef received locally. This is then used later to post conversions. You can use the parameter <code>persistClickRef</code> in both examples to override the default behaviour, if you wish to store this clickRef yourself.</p>
-<h2 id="synchronous">Synchronous</h2>
+<p>When an inbound intent from a mobile web browser or iOS app launches your iOS app via a deep link. This prepares an internal conversion object using Universal Link for further use and returns a new url containing original url with the <code>app_clickref</code> parameter stripped when conversion is completed.</p>
+<p>To return the full click object, use the following method.</p>
+<pre><code class="language-swift">
+func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -&gt; Void) -&gt; Bool {
+
+       if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
+           let click = try? Partnerize.beginConversion(userActivity.webpageURL)
+
+           let clickRef = click?.clickRef
+           let camRef = click?.camRef
+           let destination = click?.destination
+           let utmParams = click?.utmParams
+           let meta = click?.meta
+       }
+ }
+
+</code></pre>
+<p>Alternatively, if just the destination URL is required, use the following method.</p>
 <pre><code class="language-swift">func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -&gt; Void) -&gt; Bool {
 
-    if let url = application.userActivity?.webpageURL, userActivity.activityType == NSUserActivityTypeBrowsingWeb {
+       if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
+           let url = try? Partnerize.beginConversion(with: userActivity.webpageURL)
+       }
 
-        let result = Partnerize.handleInboundURL(url)
-        switch result {
-        case .success(let click):
-            print(click)
-        case .failure(let error):
-            print(error)
-        }
-    }
-}
 </code></pre>
-<h2 id="asynchronous">Asynchronous</h2>
-<pre><code class="language-swift">Partnerize.handleInboundURL(url) { result in
-  switch result {
-  case .success(let click):
-    print(click)
-  case .failure(let error):
-    print(error)
+<h2 id="posting-conversions-to-partnerize">Posting Conversions to Partnerize</h2>
+<p>Once a conversion has been constructed and is ready to be recorded, it be can be sent to Partnerize using the following method. The completion block returns the status of the conversion and an error.</p>
+<pre><code class="language-swift">Partnerize.completeConversion { isSuccess, error in
+  if isSuccess {
+    print(&quot;conversion logged&quot;)
   }
-}
-</code></pre>
-<h1 id="posting-conversions-to-partnerize">Posting Conversions to Partnerize</h1>
-<p>Once a conversion has been constructed and is ready to be recorded, it be can be sent to Partnerize using the following method</p>
-<pre><code class="language-swift">let conversion = Conversion(conversionRef: &quot;conversionRef&quot;)
-Partnerize.completeConversion(conversion) { result in
-    switch result {
-    case .success(let conversionResult):
-        print(conversionResult.conversionId)
-    case .failure(let error):
-        print(error)
-    }
 }
 </code></pre>
 <h1 id="resources">Resources</h1>
 <h2 id="click">Click</h2>
-<p>The <code>Click</code> class describes attributes and items within a click. This is returned from the method <code>Partnerize.handleInboundURL(conversionUrl)</code>.</p>
-<pre><code class="language-swift">  let clickRef: String = click.clickRef
-  let camRef: String = click.camRef
-  let destination: URL = click.destination
-  let destinationMobile: URL? = click.destinationMobile
-  let meta: [String:String] = click.meta
-  let utmParams: [String:String] = click.utmParams
+<p>The <code>Click</code> class describes attributes and items within a click. This is returned from the method <code>Partnerize.beginConversion(conversionUrl)</code>.</p>
+<pre><code class="language-swift">     let clickRef = click?.clickRef
+     let camRef = click?.camRef
+     let destination = click?.destination
+     let destinationMobile = click?.destinationMobile
+     let utmParams = click?.utmParams
+     let meta = click?.meta
 </code></pre>
 <h2 id="conversion">Conversion</h2>
-<p>The <code>Conversion</code> class describes attributes and items within a conversion. This is constructed then passed into the <code>completeConversion</code> method.</p>
-<pre><code class="language-swift">let conversion = Conversion(
-    conversionRef: &quot;conversionRef&quot;,
-    pubRef : &quot;pubRef&quot;,
-    adRef :&quot;adRef&quot;,
-    country : &quot;USA&quot;,
-    currency : &quot;USD&quot;,
-    custRef : &quot;custRef&quot;,
-    voucher : &quot;voucher&quot;,
-    tsource : &quot;Email&quot;,
-    tmetric : &quot;Booked&quot;,
-    customerType : .new,
-    items: [ConversionItem(value: 10, category: &quot;Shoes&quot;)],
-    metadata : [&quot;hello&quot;: &quot;world&quot;])
+<p>The <code>Conversion</code> class describes attributes and items within a conversion. This is accessed as a property on the <code>Partnerize</code> class.</p>
+<pre><code class="language-swift">    Partnerize.conversion?.adRef = &quot;myAddRef&quot;
+    Partnerize.conversion?.pubRef = &quot;myPublisherRef&quot;
+    Partnerize.conversion?.country = &quot;US&quot;
+    Partnerize.conversion?.currency = &quot;USD&quot;
+    Partnerize.conversion?.conversionRef = &quot;myConversionRef&quot;
+    Partnerize.conversion?.custRef = &quot;myCustomerRef&quot;
+    Partnerize.conversion?.voucher = &quot;25OFF&quot;
+    Partnerize.conversion?.tsource = PHGAffiliateTrafficSource //&quot;Affiliate&quot;
+    Partnerize.conversion?.customerType = .PHGNew
+    Partnerize.conversion?.tmetric = PHGCheckoutConversionMetric // &quot;Checkout&quot;
+    Partnerize.conversion?.metadata = [&quot;payment_type&quot; : &quot;crypto_currency&quot;]
+
+    Partnerize.conversion?.items = [ConversionItem(value: &quot;11.99&quot;, category: &quot;Shoes&quot;, quantity: &quot;1&quot;, sku: &quot;mySku&quot;)]
+
 </code></pre>
 <h3 id="clearing-the-clickref">Clearing the Clickref</h3>
 <p>It may be necessary to clear the click ref, this can be done with the following.</p>
-<pre><code class="language-swift">  Partnerize.clearClickref()
+<pre><code class="language-swift">  Partnerize.conversion?.clearClickref()
 </code></pre>
 <h3 id="trafficsource">TrafficSource</h3>
-<p>The <code>TrafficSource</code> constants such as <code>TrafficSource.affiliate</code> are for used for setting the traffic source on a conversion.
+<p>The <code>PHGConversionTrafficSource</code> constants such as <code>PHGAffiliateTrafficSource</code> are for used for setting the traffic source on a conversion.
 Raw strings can also be used however, the Partnerize platform only accepts a predefined list of traffic sources.</p>
 <h3 id="customertype">CustomerType</h3>
-<p>This enum can either be <code>CustomerType.existing</code> or <code>CustomerType.new</code>, and is used for setting the customer type on a conversion.</p>
+<p>This enum can either be <code>CustomerType.EXISTING</code> or <code>CustomerType.NEW</code>, and is used for setting the customer type on a conversion.</p>
 <h3 id="conversionmetric">ConversionMetric</h3>
-<p>The <code>ConversionMetric</code> constants such as <code>ConversionMetric.checkout</code> are for use for setting the conversion metric on a conversion.
+<p>The <code>PHGConversionMetric</code> constants such as <code>PHGCheckoutConversionMetric</code> are for use for setting the conversion metric on a conversion.
 Raw strings can also be used however, the Partnerize platform only accepts a predefined list of traffic sources.</p>
 <h2 id="conversionitem"><code>ConversionItem</code></h2>
 <p>The <code>ConversionItem</code> class is a representation of an item within a Conversion to better represent a shopping basket.
-A <code>ConversionItem</code> requires a <code>value</code> and <code>category</code> for each item however additional attributes can be included; <code>quantity</code>, <code>sku</code> as well as custom metadata similar to conversions.</p>
+A <code>ConversionItem</code> requires a <code>value</code> and <code>category</code> for each item however additional attributes can be associated; <code>quantity</code>, <code>sku</code> as well as custom metadata similar to conversions.</p>
 <pre><code class="language-swift">let conversionItems = [
-      ConversionItem(value: 9.99, category: &quot;Tops&quot;),
-      ConversionItem(value: 9.99, category: &quot;Tops&quot;, quantity: 1),
-      ConversionItem(value: 9.99, category: &quot;Shoes&quot;, quantity: 3, sku: &quot;TRA-SPT-FIV&quot;),
+      ConversionItem(value: &quot;9.99&quot;, category: &quot;Tops&quot;),
+      ConversionItem(value: &quot;9.99&quot;, category: &quot;Tops&quot;, quantity: &quot;1&quot;),
+      ConversionItem(value: &quot;9.99&quot;, category: &quot;Shoes&quot;, quantity: &quot;3&quot;, sku: &quot;TRA-SPT-FIV&quot;),
     ]  
+
+    conversionItems.first?.metadata = [&quot;season&quot; : &quot;winter&quot;]
 </code></pre>
 <h2 id="development-mode">Development Mode</h2>
-<p>During development of your iOS app you may need to debug the requests being made. This can be done by adding the following key/value to your conversion metadata.</p>
+<p>During development of your iOS app you may need to debug the requests being made.</p>
 <pre><code class="language-swift">  conversion.metadata = [&quot;development_mode&quot; : &quot;yes&quot;]
 </code></pre>
-<h2 id="logging">Logging</h2>
+<h3 id="logging">Logging</h3>
 <p>Logging may also be useful for debugging, this can help track errors when using the Partnerize SDK. This can be enabled like so.</p>
 <pre><code class="language-swift">  Partnerize.isLoggingEnabled = true
 </code></pre>
-<p>In addition to this you can also inject a custom <code>Logger</code> implementation. This will help you understand what the SDK is doing and will help if any issues need raised. By default the Partnerize SDK will just print any logged messages. Below is an example of how to create and use your own PartnerizeLogger.  </p>
-<pre><code class="language-swift">class MyLogger: PartnerizeLogger {
-  func log(_ message: String) {
-      print(message)
-  }
-}
-
-...
-
-Partnerize.logger = MyLogger()
-</code></pre>
-<h2 id="error-handling">Error Handling</h2>
-<p>Any error coming back will be a Partnerize Error. This can be handle in the following manner:</p>
-<pre><code class="language-swift">switch error {
-  case .unknown:
-     print(&quot;Something went really wrong&quot;)
-  case .invalidJsonPayload(missingKeys: let missingKeys):
-     print(missingKeys)
-  case .noClickRef:
-     print(&quot;Missing clickRef&quot;)
-  case .invalidUrl:
-     print(&quot;I passed in an invalid URL&quot;)
-  case .timeout:
-     print(&quot;The request timed out, maybe try again&quot;)
-}
-</code></pre>
-<h2 id="configuration">Configuration</h2>
-<p>The Partnerize SDK exposes a way to configure timeouts for the various requests (in seconds). This is done with the <code>Partnerize.configure(options)</code> method. Any method that uses a completion handler will use the <code>asyncTimeout</code> parameter, whilst only <code>Partnerize.handleInboundURL(url)</code> will use <code>syncTimeout</code>.</p>
-<p>By default the values are:
-<code>asyncTimeout: 10</code>
-<code>syncTimeout: 1</code></p>
-<pre><code class="language-swift">let options = PartnerizeOptions(asyncTimeout: 30, syncTimeout: 20)
-Partnerize.configure(with: options)
-</code></pre>
 <h1 id="license">License</h1>
 <p><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a></p>
-<h1 id="support">Support</h1>
-<p>If you encounter any issues please email support@partnerize.com with:</p>
-<ul>
-<li>Steps to reproduce</li>
-<li>Any URLs used</li>
-<li>Logger output</li>
-<li>The SDK Version embedded in your project</li>
-</ul>
 <h1 id="release-notes">Release Notes</h1>
 <p>Release notes can be found <a href="https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios/releases">here</a></p></div>
             </div>
@@ -355,11 +281,11 @@ Partnerize.configure(with: options)
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -424,8 +350,3 @@ Partnerize.configure(with: options)
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.2
-Build Date UTC : 2022-05-17 15:37:59.511242+00:00
--->
