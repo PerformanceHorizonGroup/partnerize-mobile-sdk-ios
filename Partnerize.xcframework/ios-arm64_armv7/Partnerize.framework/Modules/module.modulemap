@@ -1,0 +1,4 @@
+framework module Partnerize {
+  header "Partnerize-Swift.h"
+  requires objc
+}
