@@ -34,7 +34,7 @@ public enum PartnerizeError : Swift.Error, Swift.Equatable {
 }
 public struct Click : Swift.Equatable {
   public let clickRef: Swift.String
-  public let camRef: Swift.String
+  public let camRef: Swift.String?
   public let destination: Foundation.URL
   public let destinationMobile: Foundation.URL?
   public let utmParams: [Swift.String : Swift.String]

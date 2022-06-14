@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		flzfHxbdV+4FJqRwpwN3JnYsxBU=
+		kiDg+Smye9018SAt6j2pYweoc0g=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uJzBdwd8R0DpSyoTV7XtBK8+c8M=
+		CAsNsmDRldasA2w9ijOWharTruM=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KLPPbhESJ7QsLmGyfD/+AVSbJdY=
+		KJiJUspSxNYgkeKGZKNYB9C8SUE=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
-		uJzBdwd8R0DpSyoTV7XtBK8+c8M=
+		CAsNsmDRldasA2w9ijOWharTruM=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		KLPPbhESJ7QsLmGyfD/+AVSbJdY=
+		KJiJUspSxNYgkeKGZKNYB9C8SUE=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KKrpqaY5to4b8oyodIu4hYKeQdo=
+		+9GFYj+54mQedus85flgR3uX/P4=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yTM8AAuwLnnTBC5bWirkx4WHO/k=
+		qWLhJi7InY4Fm3oO6PPafPuJ5oE=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		KKrpqaY5to4b8oyodIu4hYKeQdo=
+		+9GFYj+54mQedus85flgR3uX/P4=
 		</data>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		yTM8AAuwLnnTBC5bWirkx4WHO/k=
+		qWLhJi7InY4Fm3oO6PPafPuJ5oE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -108,22 +108,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uJzBdwd8R0DpSyoTV7XtBK8+c8M=
+			CAsNsmDRldasA2w9ijOWharTruM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0W+/6oXlQB0eQDVYTa36Pz5vg7X0MRjafEDxY0x79es=
+			cvG+BTVC1mt84cjVPupLiYftXUsWnDhiv4I84+fmiTU=
 			</data>
 		</dict>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KLPPbhESJ7QsLmGyfD/+AVSbJdY=
+			KJiJUspSxNYgkeKGZKNYB9C8SUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jBtjGooWY+Q2F8ZEiy4mUQqjQj+8AanYhTbrnZA/cto=
+			7TZAFBge+dfah/LXvN+5efMXgM+3gF4rZtUKxXI/5zA=
 			</data>
 		</dict>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386.swiftdoc</key>
@@ -141,22 +141,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uJzBdwd8R0DpSyoTV7XtBK8+c8M=
+			CAsNsmDRldasA2w9ijOWharTruM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0W+/6oXlQB0eQDVYTa36Pz5vg7X0MRjafEDxY0x79es=
+			cvG+BTVC1mt84cjVPupLiYftXUsWnDhiv4I84+fmiTU=
 			</data>
 		</dict>
 		<key>Modules/PartnerizeSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KLPPbhESJ7QsLmGyfD/+AVSbJdY=
+			KJiJUspSxNYgkeKGZKNYB9C8SUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jBtjGooWY+Q2F8ZEiy4mUQqjQj+8AanYhTbrnZA/cto=
+			7TZAFBge+dfah/LXvN+5efMXgM+3gF4rZtUKxXI/5zA=
 			</data>
 		</dict>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -174,22 +174,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KKrpqaY5to4b8oyodIu4hYKeQdo=
+			+9GFYj+54mQedus85flgR3uX/P4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7x9KSnFJhr08K87l25iMDM/qhjugbDMBpl/ByHW0w0Q=
+			XCBa4Rgtyc0hVWgZyh4ogNfl4t5vfByhF20pvR+QQG4=
 			</data>
 		</dict>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yTM8AAuwLnnTBC5bWirkx4WHO/k=
+			qWLhJi7InY4Fm3oO6PPafPuJ5oE=
 			</data>
 			<key>hash2</key>
 			<data>
-			X3v5Bez6faj3uRSU0hQdkHREFCVaZqEhyzlbgPCuspk=
+			IV3CxjUbzFOnCFf2QsnJGF4CvvcsGS4GqEvooIonVkw=
 			</data>
 		</dict>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -207,22 +207,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KKrpqaY5to4b8oyodIu4hYKeQdo=
+			+9GFYj+54mQedus85flgR3uX/P4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7x9KSnFJhr08K87l25iMDM/qhjugbDMBpl/ByHW0w0Q=
+			XCBa4Rgtyc0hVWgZyh4ogNfl4t5vfByhF20pvR+QQG4=
 			</data>
 		</dict>
 		<key>Modules/PartnerizeSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yTM8AAuwLnnTBC5bWirkx4WHO/k=
+			qWLhJi7InY4Fm3oO6PPafPuJ5oE=
 			</data>
 			<key>hash2</key>
 			<data>
-			X3v5Bez6faj3uRSU0hQdkHREFCVaZqEhyzlbgPCuspk=
+			IV3CxjUbzFOnCFf2QsnJGF4CvvcsGS4GqEvooIonVkw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
