@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PartnerizeSDK",
-            path: "PartnerizeSDK.xcframework"
+            url: "https://github.com/adimobile/partnerize-mobile-sdk-ios/releases/download/2.1.0/PartnerizeSDK.zip",
+            checksum: "10562ee3e4851bfcfbfc536edb93b39798fbeb5631f25de2957c311ac1bd45a4"
         )
     ]
 )
