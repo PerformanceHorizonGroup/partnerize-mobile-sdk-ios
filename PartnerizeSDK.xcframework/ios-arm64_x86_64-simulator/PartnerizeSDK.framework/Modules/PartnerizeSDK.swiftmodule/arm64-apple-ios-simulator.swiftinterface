@@ -1,0 +1,146 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PartnerizeSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum PartnerizeError : Swift.Error, Swift.Equatable {
+  case unknown
+  case invalidJsonPayload(missingKeys: [Swift.String])
+  case noClickRef
+  case conversionFailed
+  case invalidUrl
+  case timeout
+  public static func == (a: PartnerizeSDK.PartnerizeError, b: PartnerizeSDK.PartnerizeError) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class TrafficSource {
+  final public let other: Swift.String
+  final public let partner: Swift.String
+  final public let affiliate: Swift.String
+  final public let display: Swift.String
+  final public let paidSearch: Swift.String
+  final public let email: Swift.String
+  final public let social: Swift.String
+  final public let naturalSearch: Swift.String
+  final public let direct: Swift.String
+  final public let richMedia: Swift.String
+  final public let facilitated: Swift.String
+  final public let telephone: Swift.String
+  final public let mobileApp: Swift.String
+  final public let mobile: Swift.String
+  final public let cardLinked: Swift.String
+  @objc deinit
+}
+public struct Click : Swift.Equatable {
+  public let clickRef: Swift.String
+  public let camRef: Swift.String?
+  public let destination: Foundation.URL
+  public let destinationMobile: Foundation.URL?
+  public let utmParams: [Swift.String : Swift.String]
+  public let meta: [Swift.String : Swift.String]
+  public static func == (a: PartnerizeSDK.Click, b: PartnerizeSDK.Click) -> Swift.Bool
+}
+public struct PartnerizeOptions {
+  public let asyncTimeout: Swift.Double
+  public let syncTimeout: Swift.Double
+  public init(asyncTimeout: Swift.Double? = nil, syncTimeout: Swift.Double? = nil)
+}
+public enum CustomerType {
+  case new
+  case existing
+  public static func == (a: PartnerizeSDK.CustomerType, b: PartnerizeSDK.CustomerType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol PartnerizeLogger {
+  func log(_ message: Swift.String)
+}
+public typealias ConversionHandler = (Swift.Result<PartnerizeSDK.ConversionResult, PartnerizeSDK.PartnerizeError>) -> Swift.Void
+@_hasMissingDesignatedInitializers public class Partnerize {
+  public static var logger: any PartnerizeSDK.PartnerizeLogger {
+    get
+    set
+  }
+  public static var loggingEnabled: Swift.Bool {
+    get
+    set
+  }
+  public static func handleInboundURL(_ url: Foundation.URL, persistClickRef: Swift.Bool = true) -> Swift.Result<PartnerizeSDK.Click, PartnerizeSDK.PartnerizeError>
+  public static func handleInboundURL(_ url: Foundation.URL, persistClickRef: Swift.Bool = true, completion: @escaping (Swift.Result<PartnerizeSDK.Click, PartnerizeSDK.PartnerizeError>) -> Swift.Void)
+  public static func completeConversion(_ conversion: PartnerizeSDK.Conversion, clickRef: Swift.String? = nil, completion: @escaping PartnerizeSDK.ConversionHandler)
+  public static func isClickRequest(url: Foundation.URL) -> Swift.Bool
+  public static func clearClickref()
+  public static func configure(with options: PartnerizeSDK.PartnerizeOptions)
+  @objc deinit
+}
+public struct Conversion {
+  public var conversionRef: Swift.String?
+  public var pubRef: Swift.String?
+  public var adRef: Swift.String?
+  public var country: Swift.String?
+  public var currency: Swift.String?
+  public var custRef: Swift.String?
+  public var voucher: Swift.String?
+  public var tsource: Swift.String?
+  public var tmetric: Swift.String?
+  public var customerType: PartnerizeSDK.CustomerType?
+  public var items: [PartnerizeSDK.ConversionItem]?
+  public var metadata: [Swift.String : Swift.String]?
+  public init(conversionRef: Swift.String? = nil, pubRef: Swift.String? = nil, adRef: Swift.String? = nil, country: Swift.String? = nil, currency: Swift.String? = nil, custRef: Swift.String? = nil, voucher: Swift.String? = nil, tsource: Swift.String? = nil, tmetric: Swift.String? = nil, customerType: PartnerizeSDK.CustomerType? = nil, items: [PartnerizeSDK.ConversionItem]? = nil, metadata: [Swift.String : Swift.String]? = nil)
+}
+public struct ConversionResult {
+}
+public struct ConversionItem {
+  public var value: Swift.Double
+  public var category: Swift.String
+  public var quantity: Swift.Int?
+  public var sku: Swift.String?
+  public var metadata: [Swift.String : Swift.String]?
+  public init(value: Swift.Double, category: Swift.String, quantity: Swift.Int? = nil, sku: Swift.String? = nil, metadata: [Swift.String : Swift.String]? = nil)
+}
+@_hasMissingDesignatedInitializers public class ConversionMetric {
+  final public let other: Swift.String
+  final public let standard: Swift.String
+  final public let appDownload: Swift.String
+  final public let booked: Swift.String
+  final public let billed: Swift.String
+  final public let consumed: Swift.String
+  final public let step1: Swift.String
+  final public let step2: Swift.String
+  final public let formSubmission: Swift.String
+  final public let successfulApplication: Swift.String
+  final public let crossDevice: Swift.String
+  final public let application: Swift.String
+  final public let quote: Swift.String
+  final public let sendIntention: Swift.String
+  final public let appInstall: Swift.String
+  final public let checkout: Swift.String
+  final public let testEvent: Swift.String
+  final public let appOpen: Swift.String
+  final public let appReinstall: Swift.String
+  final public let bounty: Swift.String
+  final public let recurring: Swift.String
+  final public let registration: Swift.String
+  final public let listing: Swift.String
+  final public let sellerSale: Swift.String
+  final public let bid: Swift.String
+  final public let applicationReferred: Swift.String
+  final public let applicationDeclined: Swift.String
+  final public let accountCreate: Swift.String
+  final public let emailSubscription: Swift.String
+  final public let enquiry: Swift.String
+  final public let invalidVoucher: Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ConversionPathBuilder {
+  public func build(serviceUrl: Foundation.URL, conversion: PartnerizeSDK.Conversion) -> Foundation.URL
+  @objc deinit
+}
+extension PartnerizeSDK.CustomerType : Swift.Equatable {}
+extension PartnerizeSDK.CustomerType : Swift.Hashable {}
