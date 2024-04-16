@@ -6537,1323 +6537,1323 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
       "kind": "IntegerLiteral",
       "offset": 674,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
       "kind": "IntegerLiteral",
       "offset": 1049,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
       "kind": "BooleanLiteral",
       "offset": 2107,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Networking\/HttpClient.swift",
       "kind": "IntegerLiteral",
       "offset": 2166,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 7,
       "value": "\"Other\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 9,
       "value": "\"Partner\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 11,
       "value": "\"Affiliate\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 9,
       "value": "\"Display\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 13,
       "value": "\"Paid Search\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 7,
       "value": "\"Email\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 8,
       "value": "\"Social\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 16,
       "value": "\"Natural Search\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 8,
       "value": "\"Direct\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 578,
       "length": 12,
       "value": "\"Rich Media\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 13,
       "value": "\"Facilitated\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 11,
       "value": "\"Telephone\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 12,
       "value": "\"Mobile App\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 737,
       "length": 8,
       "value": "\"Mobile\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/TrafficSource.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 13,
       "value": "\"Card Linked\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Repository.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Repository.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 27,
       "value": "\"PHG_APP_TRACKING_CLICKREF\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 10,
       "value": "\"clickref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 8,
       "value": "\"camref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 13,
       "value": "\"destination\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickKeys.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 20,
       "value": "\"destination_mobile\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 17,
       "value": "\"Logging enabled\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 18,
       "value": "\"Logging disabled\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 347,
       "length": 19,
       "value": "\"custom logger set\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 420,
       "length": 44,
       "value": "\"Inbound url successfully handled: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 463,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 528,
       "length": 38,
       "value": "\"Clickref \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 3,
       "value": "\" has been stored\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 44,
       "value": "\"Clickref \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 654,
       "length": 3,
       "value": "\" was not stored by SDK\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 48,
       "value": "\"Inbound URL not a valid Partnerize URL: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 802,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 54,
       "value": "\"Request to Partnerize Tracking API timed out: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 985,
       "length": 40,
       "value": "\"Valid Partnerize link detected: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1024,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1078,
       "length": 42,
       "value": "\"Invalid Partnerize link detected: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1171,
       "length": 46,
       "value": "\"Valid Partnerize short link detected: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1216,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 47,
       "value": "\"Valid Partnerize direct link detected: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1315,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1373,
       "length": 48,
       "value": "\"Non-Universal Partnerize link detected: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1420,
       "length": 3,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1480,
       "length": 38,
       "value": "\"Any stored clickref has been cleared\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1608,
       "length": 50,
       "value": "\"Conversion successfully submitted: \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/LogMessages.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 45,
       "value": "\"[Partnerize] \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 25,
       "value": "\"[Partnerize] \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 474,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 25,
       "value": "\"[Partnerize] \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Logging\/Logging.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 358,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 1014,
       "length": 5,
       "value": "\"utm\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 1052,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 1223,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickJsonParser.swift",
       "kind": "StringLiteral",
       "offset": 1318,
       "length": 5,
       "value": "\"utm\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/PartnerizeOptions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/PartnerizeOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 232,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/PartnerizeOptions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/PartnerizeOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 5,
       "value": "\"\/l\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 422,
       "length": 8,
       "value": "\"click\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 463,
       "length": 12,
       "value": "\"mode:json\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 14,
       "value": "\"type:mobile\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 609,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 676,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 745,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 29,
       "value": "\"click\/mode:json\/type:mobile\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 1136,
       "length": 23,
       "value": "\"mode:json\/type:mobile\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 1239,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlModifier.swift",
       "kind": "StringLiteral",
       "offset": 1371,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
       "kind": "Array",
       "offset": 389,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 14,
       "value": "\"app_clickref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 14,
       "value": "\"app_clickref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickFactory.swift",
       "kind": "StringLiteral",
       "offset": 1401,
       "length": 6,
       "value": "\"utm_\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Partnerize.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Partnerize.swift",
       "kind": "BooleanLiteral",
       "offset": 1228,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Partnerize.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Partnerize.swift",
       "kind": "BooleanLiteral",
       "offset": 1792,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "Array",
       "offset": 323,
       "length": 42,
       "value": "[\"prf.hn\", \"partnerize.tech\", \"localhost\"]"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 14,
       "value": "\"app_clickref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 782,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 7,
       "value": "\"click\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 978,
       "length": 3,
       "value": "\"l\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "BooleanLiteral",
       "offset": 1313,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1379,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 1452,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1485,
       "length": 47,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 1508,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1511,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1528,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1531,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1689,
       "length": 6,
       "value": "\"psrc\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1700,
       "length": 4,
       "value": "\"pz\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "StringLiteral",
       "offset": 1723,
       "length": 9,
       "value": "\"pcamref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickUrlValidator.swift",
       "kind": "Array",
       "offset": 2248,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Environment.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 16,
       "value": "\"PZ_SERVICE_URL\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Environment.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Environment.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 252,
       "length": 7,
       "value": "\"Other\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 10,
       "value": "\"Standard\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 326,
       "length": 14,
       "value": "\"App Download\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 8,
       "value": "\"Booked\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 8,
       "value": "\"Billed\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 10,
       "value": "\"Consumed\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 8,
       "value": "\"Step 1\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 499,
       "length": 8,
       "value": "\"Step 2\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 17,
       "value": "\"Form Submission\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 597,
       "length": 24,
       "value": "\"Successful Application\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 651,
       "length": 14,
       "value": "\"Cross Device\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 13,
       "value": "\"Application\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 7,
       "value": "\"Quote\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 771,
       "length": 16,
       "value": "\"Send Intention\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 816,
       "length": 13,
       "value": "\"App Install\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 856,
       "length": 10,
       "value": "\"Checkout\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 894,
       "length": 12,
       "value": "\"Test Event\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 10,
       "value": "\"App Open\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 973,
       "length": 15,
       "value": "\"App Reinstall\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1013,
       "length": 8,
       "value": "\"Bounty\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 11,
       "value": "\"Recurring\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1091,
       "length": 14,
       "value": "\"Registration\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1131,
       "length": 9,
       "value": "\"Listing\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1169,
       "length": 13,
       "value": "\"Seller Sale\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1204,
       "length": 5,
       "value": "\"Bid\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1247,
       "length": 22,
       "value": "\"Application Referred\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 22,
       "value": "\"Application Declined\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1361,
       "length": 16,
       "value": "\"Account Create\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1413,
       "length": 20,
       "value": "\"Email Subscription\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1459,
       "length": 9,
       "value": "\"Enquiry\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/ConversionMetric.swift",
       "kind": "StringLiteral",
       "offset": 1501,
       "length": 17,
       "value": "\"Invalid Voucher\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 10,
       "value": "\"clickref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 8,
       "value": "\"pubref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 7,
       "value": "\"adref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 488,
       "length": 10,
       "value": "\"currency\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 15,
       "value": "\"conversionref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 576,
       "length": 9,
       "value": "\"custref\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 9,
       "value": "\"voucher\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 650,
       "length": 9,
       "value": "\"tsource\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 687,
       "length": 9,
       "value": "\"tmetric\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 14,
       "value": "\"customertype\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 52,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 918,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 930,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 948,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 951,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 1468,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 1516,
       "length": 10,
       "value": "\"category\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 1559,
       "length": 10,
       "value": "\"quantity\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 1614,
       "length": 5,
       "value": "\"sku\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 1874,
       "length": 34,
       "value": "\"[\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 1906,
       "length": 1,
       "value": "\"]\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2151,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2200,
       "length": 52,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2217,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2229,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2247,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2250,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2368,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2417,
       "length": 46,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2434,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2446,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2461,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2635,
       "length": 5,
       "value": "\"new\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2684,
       "length": 10,
       "value": "\"existing\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/Conversion+UrlExtensions.swift",
       "kind": "StringLiteral",
       "offset": 2806,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 74,
       "value": "\"%@\/conversion\/tracking_mode:api\/device:mobile\/context:m_app\/app_sdk:true\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 14,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 588,
       "length": 1,
       "value": "\":\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 594,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 627,
       "length": 39,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 745,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 5,
       "value": "\"%20\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 924,
       "length": 15,
       "value": "\"app_os_device\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 967,
       "length": 23,
       "value": "\"app_os_device_version\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 17,
       "value": "\"app_sdk_version\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 1181,
       "length": 27,
       "value": "\"com.partnerize.Partnerize\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 1224,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 1267,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Conversion\/ConversionPathBuilder.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tom.harnasz\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickResponseValidator.swift",
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Click\/ClickFactory\/ClickResponseValidator.swift",
       "kind": "IntegerLiteral",
       "offset": 376,
       "length": 1,

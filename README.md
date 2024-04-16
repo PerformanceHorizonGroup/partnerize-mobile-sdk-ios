@@ -1,6 +1,7 @@
 
 ## Partnerize App Tracking iOS framework.
 
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-brightgreen?style=flat-square)](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios-spm)
 [![CocoaPods](https://img.shields.io/badge/platform-ios-orange.svg)](https://cocoapods.org/pods/Partnerize)
 [![Languages](https://img.shields.io/badge/languages-ObjC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios)
 [![CocoaPods](https://img.shields.io/badge/pod-1.1.1-blue.svg)](https://cocoapods.org/pods/Partnerize)
