@@ -1,0 +1,268 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PartnerizeSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum PartnerizeError : Swift.Error, Swift.Equatable {
+  case unknown
+  case invalidJsonPayload(missingKeys: [Swift.String])
+  case noClickRef
+  case conversionFailed
+  case invalidUrl
+  case timeout
+  case invalidConversionModel(expected: Swift.String, received: Swift.String)
+  case invalidAttribution(expected: Swift.String, received: Swift.String)
+  case invalidClickIdentifier(message: Swift.String)
+  public static func == (a: PartnerizeSDK.PartnerizeError, b: PartnerizeSDK.PartnerizeError) -> Swift.Bool
+}
+public struct PartnerizeStoredAttribution : PartnerizeSDK.StoredAttribution {
+  public let clickRef: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(clickRef: Swift.String?)
+  #endif
+}
+public protocol StoredAttribution {
+}
+public struct AscendStoredAttribution : PartnerizeSDK.StoredAttribution {
+  public let clickIds: [Swift.Int]
+  public let gClickIds: [Swift.String]
+  public init(clickIds: [Swift.Int], gClickIds: [Swift.String])
+}
+public struct PartnerizeAttribution : PartnerizeSDK.Attribution {
+  public let clickRef: Swift.String?
+}
+@_hasMissingDesignatedInitializers public class TrafficSource {
+  final public let other: Swift.String
+  final public let partner: Swift.String
+  final public let affiliate: Swift.String
+  final public let display: Swift.String
+  final public let paidSearch: Swift.String
+  final public let email: Swift.String
+  final public let social: Swift.String
+  final public let naturalSearch: Swift.String
+  final public let direct: Swift.String
+  final public let richMedia: Swift.String
+  final public let facilitated: Swift.String
+  final public let telephone: Swift.String
+  final public let mobileApp: Swift.String
+  final public let mobile: Swift.String
+  final public let cardLinked: Swift.String
+  @objc deinit
+}
+public protocol Attribution {
+}
+public enum TransactionType : Swift.Int, Swift.Codable {
+  case sale
+  case lead
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct AscendConversion : Swift.Codable, PartnerizeSDK.Conversion {
+  public var type: PartnerizeSDK.TransactionType
+  public var publisherId: Swift.Int
+  public var orderId: Swift.String
+  public var items: [PartnerizeSDK.AscendItem]
+  public var created: Swift.String
+  public var currency: Swift.String
+  public var newToFile: Swift.Bool?
+  public var coupons: [Swift.String]?
+  public var segment: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(type: PartnerizeSDK.TransactionType = .sale, publisherId: Swift.Int, orderId: Swift.String, items: [PartnerizeSDK.AscendItem], created: Swift.String, currency: Swift.String, newToFile: Swift.Bool? = nil, coupons: [Swift.String]? = nil, segment: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AscendItem : Swift.Codable {
+  public var id: Swift.String
+  public var amount: Swift.Double
+  public var quantity: Swift.Int
+  public var category: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.String, amount: Swift.Double, quantity: Swift.Int, category: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class AscendConversionPathBuilder {
+  @objc deinit
+}
+public struct Click : Swift.Equatable {
+  public let clickRef: Swift.String
+  public let camRef: Swift.String?
+  public let destination: Foundation.URL
+  public let destinationMobile: Foundation.URL?
+  public let utmParams: [Swift.String : Swift.String]
+  public let meta: [Swift.String : Swift.String]
+  public static func == (a: PartnerizeSDK.Click, b: PartnerizeSDK.Click) -> Swift.Bool
+}
+public struct Configuration {
+  public let asyncTimeout: Swift.Double
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(asyncTimeout: Swift.Double? = nil)
+  #endif
+}
+public struct AscendAttribution : PartnerizeSDK.Attribution {
+  public var clickId: Swift.Int?
+  public var gClickId: Swift.String?
+}
+public enum CustomerType : Swift.Codable {
+  case new
+  case existing
+  public static func == (a: PartnerizeSDK.CustomerType, b: PartnerizeSDK.CustomerType) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol PartnerizeLogger {
+  func log(_ message: Swift.String)
+}
+@_hasMissingDesignatedInitializers final public class PartnerizeTracking<P> where P : PartnerizeSDK.Platform {
+  public typealias CapturedAttribution = P.Captured
+  public typealias StoredAttribution = P.Stored
+  public typealias Conversion = P.ConversionType
+  public typealias ConversionResult = P.Result
+  public typealias Handler = (Swift.Result<PartnerizeSDK.PartnerizeTracking<P>.ConversionResult, PartnerizeSDK.PartnerizeError>) -> Swift.Void
+  final public var logger: any PartnerizeSDK.PartnerizeLogger {
+    get
+    set
+  }
+  final public var loggingEnabled: Swift.Bool {
+    get
+    set
+  }
+  @discardableResult
+  final public func captureAttribution(url: Foundation.URL, persist: Swift.Bool = true) throws -> PartnerizeSDK.PartnerizeTracking<P>.CapturedAttribution
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func completeConversion(_ conversion: PartnerizeSDK.PartnerizeTracking<P>.Conversion, alternateAttributionData: PartnerizeSDK.PartnerizeTracking<P>.StoredAttribution? = nil, completion: @escaping PartnerizeSDK.PartnerizeTracking<P>.Handler)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func completeConversion(_ conversion: PartnerizeSDK.PartnerizeTracking<P>.Conversion, alternateAttributionData: PartnerizeSDK.PartnerizeTracking<P>.StoredAttribution? = nil) async throws -> PartnerizeSDK.PartnerizeTracking<P>.ConversionResult
+  #endif
+  final public func getStoredAttribution() -> PartnerizeSDK.PartnerizeTracking<P>.StoredAttribution
+  final public func clearStoredAttribution()
+  @objc deinit
+}
+extension PartnerizeSDK.PartnerizeTracking where P == PartnerizeSDK.Partnerize {
+  convenience public init(configuration: PartnerizeSDK.Configuration = Configuration())
+}
+extension PartnerizeSDK.PartnerizeTracking where P == PartnerizeSDK.Ascend {
+  convenience public init(configuration: PartnerizeSDK.Configuration = Configuration(), apiKey: Swift.String)
+}
+public struct PartnerizeConversion : Swift.Codable, PartnerizeSDK.Conversion {
+  public var conversionRef: Swift.String?
+  public var pubRef: Swift.String?
+  public var adRef: Swift.String?
+  public var country: Swift.String?
+  public var currency: Swift.String?
+  public var custRef: Swift.String?
+  public var voucher: Swift.String?
+  public var tsource: Swift.String?
+  public var tmetric: Swift.String?
+  public var customerType: PartnerizeSDK.CustomerType?
+  public var fulfilmentDate: Foundation.Date?
+  public var fulfilmentStartDate: Foundation.Date?
+  public var items: [PartnerizeSDK.ConversionItem]?
+  public var metadata: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(conversionRef: Swift.String? = nil, pubRef: Swift.String? = nil, adRef: Swift.String? = nil, country: Swift.String? = nil, currency: Swift.String? = nil, custRef: Swift.String? = nil, voucher: Swift.String? = nil, tsource: Swift.String? = nil, tmetric: Swift.String? = nil, customerType: PartnerizeSDK.CustomerType? = nil, fulfilmentDate: Foundation.Date? = nil, fulfilmentStartDate: Foundation.Date? = nil, items: [PartnerizeSDK.ConversionItem]? = nil, metadata: [Swift.String : Swift.String]? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol Conversion {
+}
+public protocol ConversionResult {
+}
+public struct PartnerizeConversionResult : PartnerizeSDK.ConversionResult {
+  public let conversionId: Swift.String
+}
+public struct AscendConversionResult : PartnerizeSDK.ConversionResult {
+  public let message: Swift.String
+}
+public struct ConversionItem : Swift.Codable {
+  public var value: Swift.Double
+  public var category: Swift.String
+  public var quantity: Swift.Int?
+  public var sku: Swift.String?
+  public var metadata: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(value: Swift.Double, category: Swift.String, quantity: Swift.Int? = nil, sku: Swift.String? = nil, metadata: [Swift.String : Swift.String]? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ConversionMetric {
+  final public let other: Swift.String
+  final public let standard: Swift.String
+  final public let appDownload: Swift.String
+  final public let booked: Swift.String
+  final public let billed: Swift.String
+  final public let consumed: Swift.String
+  final public let step1: Swift.String
+  final public let step2: Swift.String
+  final public let formSubmission: Swift.String
+  final public let successfulApplication: Swift.String
+  final public let crossDevice: Swift.String
+  final public let application: Swift.String
+  final public let quote: Swift.String
+  final public let sendIntention: Swift.String
+  final public let appInstall: Swift.String
+  final public let checkout: Swift.String
+  final public let testEvent: Swift.String
+  final public let appOpen: Swift.String
+  final public let appReinstall: Swift.String
+  final public let bounty: Swift.String
+  final public let recurring: Swift.String
+  final public let registration: Swift.String
+  final public let listing: Swift.String
+  final public let sellerSale: Swift.String
+  final public let bid: Swift.String
+  final public let applicationReferred: Swift.String
+  final public let applicationDeclined: Swift.String
+  final public let accountCreate: Swift.String
+  final public let emailSubscription: Swift.String
+  final public let enquiry: Swift.String
+  final public let invalidVoucher: Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PartnerizeConversionPathBuilder {
+  public func build(conversion: PartnerizeSDK.PartnerizeConversion) -> Foundation.URL
+  @objc deinit
+}
+public protocol Platform {
+  associatedtype Captured : PartnerizeSDK.Attribution
+  associatedtype Stored : PartnerizeSDK.StoredAttribution
+  associatedtype ConversionType : PartnerizeSDK.Conversion
+  associatedtype Result : PartnerizeSDK.ConversionResult
+}
+public enum Partnerize : PartnerizeSDK.Platform {
+  public typealias Captured = PartnerizeSDK.PartnerizeAttribution
+  public typealias Stored = PartnerizeSDK.PartnerizeStoredAttribution
+  public typealias ConversionType = PartnerizeSDK.PartnerizeConversion
+  public typealias Result = PartnerizeSDK.PartnerizeConversionResult
+}
+public enum Ascend : PartnerizeSDK.Platform {
+  public typealias Captured = PartnerizeSDK.AscendAttribution
+  public typealias Stored = PartnerizeSDK.AscendStoredAttribution
+  public typealias ConversionType = PartnerizeSDK.AscendConversion
+  public typealias Result = PartnerizeSDK.AscendConversionResult
+}
+extension PartnerizeSDK.TransactionType : Swift.Equatable {}
+extension PartnerizeSDK.TransactionType : Swift.Hashable {}
+extension PartnerizeSDK.TransactionType : Swift.RawRepresentable {}
+extension PartnerizeSDK.CustomerType : Swift.Equatable {}
+extension PartnerizeSDK.CustomerType : Swift.Hashable {}
