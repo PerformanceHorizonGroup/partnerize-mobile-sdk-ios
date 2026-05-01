@@ -69,16 +69,16 @@ public enum TransactionType : Swift.Int, Swift.Codable {
 }
 public struct AscendConversion : Swift.Codable, PartnerizeSDK.Conversion {
   public var type: PartnerizeSDK.TransactionType
-  public var publisherId: Swift.Int
   public var orderId: Swift.String
   public var items: [PartnerizeSDK.AscendItem]
   public var created: Swift.String
   public var currency: Swift.String
+  public var publisherId: Swift.Int?
   public var newToFile: Swift.Bool?
   public var coupons: [Swift.String]?
   public var segment: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(type: PartnerizeSDK.TransactionType = .sale, publisherId: Swift.Int, orderId: Swift.String, items: [PartnerizeSDK.AscendItem], created: Swift.String, currency: Swift.String, newToFile: Swift.Bool? = nil, coupons: [Swift.String]? = nil, segment: Swift.String? = nil)
+  public init(type: PartnerizeSDK.TransactionType = .sale, orderId: Swift.String, items: [PartnerizeSDK.AscendItem], created: Swift.String, currency: Swift.String, publisherId: Swift.Int? = nil, newToFile: Swift.Bool? = nil, coupons: [Swift.String]? = nil, segment: Swift.String? = nil)
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws

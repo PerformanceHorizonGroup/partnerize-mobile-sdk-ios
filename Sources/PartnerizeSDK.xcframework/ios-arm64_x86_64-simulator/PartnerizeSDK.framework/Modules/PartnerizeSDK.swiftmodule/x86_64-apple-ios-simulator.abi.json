@@ -2230,92 +2230,6 @@
           },
           {
             "kind": "Var",
-            "name": "publisherId",
-            "printedName": "publisherId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSivp",
-            "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSivp",
-            "moduleName": "PartnerizeSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSivg",
-                "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSivg",
-                "moduleName": "PartnerizeSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSivs",
-                "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSivs",
-                "moduleName": "PartnerizeSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSivM",
-                "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSivM",
-                "moduleName": "PartnerizeSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "orderId",
             "printedName": "orderId",
             "children": [
@@ -2684,6 +2598,117 @@
           },
           {
             "kind": "Var",
+            "name": "publisherId",
+            "printedName": "publisherId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSiSgvp",
+            "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSiSgvp",
+            "moduleName": "PartnerizeSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSiSgvg",
+                "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSiSgvg",
+                "moduleName": "PartnerizeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSiSgvs",
+                "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSiSgvs",
+                "moduleName": "PartnerizeSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13PartnerizeSDK16AscendConversionV11publisherIdSiSgvM",
+                "mangledName": "$s13PartnerizeSDK16AscendConversionV11publisherIdSiSgvM",
+                "moduleName": "PartnerizeSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "newToFile",
             "printedName": "newToFile",
             "children": [
@@ -3042,7 +3067,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(type:publisherId:orderId:items:created:currency:newToFile:coupons:segment:)",
+            "printedName": "init(type:orderId:items:created:currency:publisherId:newToFile:coupons:segment:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3056,12 +3081,6 @@
                 "printedName": "PartnerizeSDK.TransactionType",
                 "hasDefaultArg": true,
                 "usr": "s:13PartnerizeSDK15TransactionTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -3094,6 +3113,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3150,8 +3184,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13PartnerizeSDK16AscendConversionV4type11publisherId05orderG05items7created8currency9newToFile7coupons7segmentAcA15TransactionTypeO_SiSSSayAA0C4ItemVGS2SSbSgSaySSGSgSSSgtcfc",
-            "mangledName": "$s13PartnerizeSDK16AscendConversionV4type11publisherId05orderG05items7created8currency9newToFile7coupons7segmentAcA15TransactionTypeO_SiSSSayAA0C4ItemVGS2SSbSgSaySSGSgSSSgtcfc",
+            "usr": "s:13PartnerizeSDK16AscendConversionV4type7orderId5items7created8currency09publisherG09newToFile7coupons7segmentAcA15TransactionTypeO_SSSayAA0C4ItemVGS2SSiSgSbSgSaySSGSgSSSgtcfc",
+            "mangledName": "$s13PartnerizeSDK16AscendConversionV4type7orderId5items7created8currency09publisherG09newToFile7coupons7segmentAcA15TransactionTypeO_SSSayAA0C4ItemVGS2SSiSgSbSgSaySSGSgSSSgtcfc",
             "moduleName": "PartnerizeSDK",
             "declAttributes": [
               "AccessControl"
@@ -10672,34 +10706,34 @@
       "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Platforms\/Ascend\/Models\/AscendConversion.swift",
       "kind": "StringLiteral",
       "offset": 1874,
-      "length": 14,
-      "value": "\"publisher_id\""
-    },
-    {
-      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Platforms\/Ascend\/Models\/AscendConversion.swift",
-      "kind": "StringLiteral",
-      "offset": 1916,
       "length": 10,
       "value": "\"order_id\""
     },
     {
       "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Platforms\/Ascend\/Models\/AscendConversion.swift",
       "kind": "StringLiteral",
-      "offset": 2030,
+      "offset": 1974,
+      "length": 14,
+      "value": "\"publisher_id\""
+    },
+    {
+      "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Platforms\/Ascend\/Models\/AscendConversion.swift",
+      "kind": "StringLiteral",
+      "offset": 2014,
       "length": 13,
       "value": "\"new_to_file\""
     },
     {
       "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Platforms\/Ascend\/Models\/AscendConversion.swift",
       "kind": "StringLiteral",
-      "offset": 2122,
+      "offset": 2094,
       "length": 11,
       "value": "\"click_ids\""
     },
     {
       "filePath": "\/Users\/sammiller\/Documents\/Projects\/partnerize-ios-sdk\/PartnerizeSwift\/Sources\/Platforms\/Ascend\/Models\/AscendConversion.swift",
       "kind": "StringLiteral",
-      "offset": 2168,
+      "offset": 2136,
       "length": 18,
       "value": "\"google_click_ids\""
     },
