@@ -36,7 +36,7 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="nav-item">
-                                <a href="." class="nav-link active" aria-current="page">3.0.0</a>
+                                <a href="." class="nav-link active" aria-current="page">3.0.1</a>
                             </li>
                             <li class="nav-item">
                                 <a href="legacy/" class="nav-link">2.0</a>
@@ -160,7 +160,7 @@
 <ol>
 <li>In Xcode: File → Add Package Dependencies…</li>
 <li>Enter <code>https://github.com/PerformanceHorizonGroup/partnerize-mobile-sdk-ios</code></li>
-<li>Choose the latest tag (e.g., <code>3.0.0</code>) and add the package.</li>
+<li>Choose the latest tag (e.g., <code>3.0.1</code>) and add the package.</li>
 <li><code>import PartnerizeSDK</code> where needed.</li>
 </ol>
 <h3 id="manual">Manual</h3>
@@ -333,7 +333,6 @@ conversion.fulfilmentDate = Date() // encoded as ISO8601
 <p><code>AscendConversion</code> (Codable) has required order details; click IDs are injected from storage unless overridden.</p>
 <p>Required:</p>
 <ul>
-<li><code>publisherId: Int</code></li>
 <li><code>orderId: String</code></li>
 <li><code>items: [AscendItem]</code></li>
 <li><code>created: String</code> (datetime, e.g., <code>yyyy-MM-dd HH:mm:ss</code>)</li>
@@ -341,6 +340,7 @@ conversion.fulfilmentDate = Date() // encoded as ISO8601
 </ul>
 <p>Optional:</p>
 <ul>
+<li><code>publisherId: Int</code></li>
 <li><code>type: TransactionType</code> (default <code>.sale</code>)</li>
 <li><code>newToFile: Bool?</code></li>
 <li><code>coupons: [String]?</code></li>
@@ -352,11 +352,11 @@ conversion.fulfilmentDate = Date() // encoded as ISO8601
 ]
 
 let conversion = AscendConversion(
-    publisherId: 1234,
     orderId: &quot;order_001&quot;,
     items: items,
     created: &quot;2024-01-01 12:00:00&quot;,
     currency: &quot;GBP&quot;,
+    publisherId: 1234,
     newToFile: true,
     coupons: [&quot;WELCOME10&quot;],
     segment: &quot;vip&quot;
@@ -466,5 +466,5 @@ https://www.apache.org/licenses/LICENSE-2.0</p>
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2026-04-15 11:07:04.190122+00:00
+Build Date UTC : 2026-05-01 07:49:30.215463+00:00
 -->
